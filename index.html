@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Rockstor | Linux & BTRFS powered Opensource NAS solution</title>
+
+  <!-- core CSS -->
+  <link href="/media/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="/media/css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="/media/css/animate.min.css" rel="stylesheet" media="screen">
+  <link href="/media/css/prettyPhoto.css" rel="stylesheet" media="screen">
+  <!-- link href="css/main.css" rel="stylesheet"-->
+  <link href="/media/css/majorColorChange.css" rel="stylesheet" media="screen">
+  <link href="/media/css/responsive.css" rel="stylesheet" media="screen">
+  <!--[if lt IE 9]>
+  <script src="/media/js/html5shiv.js"></script>
+  <script src="/media/js/respond.min.js"></script>  <![endif]-->
+  <link rel="shortcut icon" href="/media/images/ico/favicon.ico">
+  <script src="/media/js/jquery.js"></script>
+  <script src="/media/js/bootstrap.min.js"></script>
+  <script src="/media/js/jquery.prettyPhoto.js"></script>
+  <script src="/media/js/main.js"></script>
+  <script src="/media/js/wow.min.js"></script>
+</head>
+
+<body class="homepage">
+
+<header id="header">
+  <nav class="navbar navbar-inverse" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"> <img style="width:150px;" src="/media/images/rockstorlogo-font2.png" alt="logo"> </a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions</a>
+            <ul class="dropdown-menu">
+              <li><a href="/personal-cloud-btrfs-nas-server.html">Personal Cloud server</a></li>
+              <li><a href="/smb-private-cloud-btrfs-nas-server.html">SMB Cloud server</a></li>
+              <li><a href="/linux-btrfs-nas-server.html">Traditional NAS server</a></li>
+              <li><a href="/customizable-btrfs-nas-storage-platform.html">Custom solutions</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="/%23" class="dropdown-toggle" data-toggle="dropdown">Resources</a>
+            <ul class="dropdown-menu">
+              <li><a href="docs/" target="_blank">Documentation</a></li>
+              <li><a href="/docs/faq.html" target="_blank">FAQ</a></li>
+              <li><a href="/docs/quickstart.html" target="_blank">Quick Start</a></li>
+              <li><a href="commercial_support.html">Commercial Support</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="/%23" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+            <ul class="dropdown-menu">
+              <li><a href="https://forum.rockstor.com/" target="_blank">Forum</a></li>
+              <li><a href="https://github.com/rockstor/rockstor-core/issues" target="_blank">Issue Tracker</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="/%23" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a href="/about-us.html">About</a></li>
+              <li><a href="about-us.html#contact">Contact</a></li>
+            </ul>
+          </li>
+          <li><a href="http://shop.rockstor.com" target="_blank">Shop</a></li>
+          <li><a class="btn-down" href="/download.html">Download</a></li>
+          <li>
+            <ul class="social_icons">
+              <li><a href="https://twitter.com/rockstorinc" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/rockstor-inc-?trk=tyah" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/rockstor" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.youtube.com/user/rockstorinc" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--/.container-->
+  </nav>
+  <!--/nav-->
+
+</header>
+<!--/header-->
+
+<div id="maincontent">
+  <!-- Carousel Part -->
+  <section id="main-slider" class="no-margin">
+    <div class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+        <li data-target="#main-slider" data-slide-to="1"></li>
+        <li data-target="#main-slider" data-slide-to="2"></li>
+        <li data-target="#main-slider" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(media/images/rockstor_slider1.png)">
+          <div class="container">
+            <div class="row slide-margin">
+              <div class="col-sm-6"></div>
+              <div class="col-sm-6">
+                <div class="carousel-content">
+                  <p class="animation animated-item-1 ptoh1">Store smartly with Rockstor</p>
+                  <h2 class="animation animated-item-2">Build and manage your own Linux & BTRFS powered advanced NAS and Cloud storage with ease.</h2>
+                  <a class="btn-slide animation animated-item-3" href="personal-cloud-btrfs-nas-server.html#feature" target="_blank">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(media/images/rockstor_slider2.png)">
+          <div class="container">
+            <div class="row slide-margin">
+              <div class="col-sm-6"></div>
+              <div class="col-sm-6">
+                <div class="carousel-content">
+                  <p class="animation animated-item-1 ptoh1">Run your own Private Cloud with Rockstor</p>
+                  <h2 class="animation animated-item-2">Store, Share, Sync and Stream. Your data. Your devices. Your terms.</h2>
+                  <a class="btn-slide animation animated-item-3" href="smb-private-cloud-btrfs-nas-server.html#feature">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(media/images/rockstor_slider3.png)">
+          <div class="container">
+            <div class="row slide-margin">
+              <div class="col-sm-6"></div>
+              <div class="col-sm-6">
+                <div class="carousel-content">
+                  <h1 class="animation animated-item-1">Linux & BTRFS powered Opensource NAS and personal Cloud</h1>
+                  <h2 class="animation animated-item-2">Securely manage your data with total control.</h2>
+                  <a class="btn-slide animation animated-item-3" href="personal-cloud-btrfs-nas-server.html#feature">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(media/images/rockstor_slider3.png)">
+          <div class="container">
+            <div class="row slide-margin">
+              <div class="col-sm-6"></div>
+              <div class="col-sm-6">
+                <div class="carousel-content">
+                  <p class="animation animated-item-1 ptoh1">Commercial Support</p>
+                  <h2 class="animation animated-item-2">Professional help, directly from the developers.</h2>
+                  <a class="btn-slide animation animated-item-3" href="commercial_support.html">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.carousel-inner-->
+    </div>
+    <!--/.carousel-->
+    <a class="prev hidden-xs" href="#main-slider" data-slide="prev"> <i class="fa fa-chevron-left"></i> </a> <a class="next hidden-xs"
+                                                                                                                href="#main-slider" data-slide="next">
+    <i class="fa fa-chevron-right"></i> </a>
+  </section>
+
+  <!--/#main-slider-->
+
+  <!-- Solutions Section -->
+  <section id="solution">
+    <div class="container">
+      <div class="center wow fadeInDown">
+        <br>
+        <h2>Solutions</h2>
+        <p class="lead">
+          Rockstor provides a solid platform and empowers users to deploy effective storage solutions.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution_box">
+          <h2>Personal Cloud Server</h2>
+          <p text-indent>
+            Rockstor Personal Cloud Server is a powerful local alternative to public cloud storage that mitigates the cost and risks of public cloud
+            storage. A lot of important data is stored on laptops, desktops, mobile devices, external hard-drives and various cloud storage services
+            and the data footprint continues to increase as users generate and access more data.
+          </p>
+          <p text-indent>
+            With Rockstor as your <strong>Personal Cloud Server</strong>, you can
+          <ul>
+            <li>Reduce cost of storing large amounts of data</li>
+            <li>Effectively scale capacity, manage privacy and performance</li>
+            <li>Access data from desktops, laptop or mobile devices from anywhere(inside and outside of your local network)</li>
+            <li>Move data between public cloud, Rockstor and your devices</li>
+            <li>Protect data from theft, loss or unintentional access</li>
+          </ul>
+          </p>  <a href="personal-cloud-btrfs-nas-server.html" class="about_btn">More info</a>
+        </div>
+        <div class="col-md-6 solution_box">
+          <h2>SMB Cloud Server</h2>
+          <p text-indent>
+            Rockstor <strong>Small and Midsize Business (SMB) Cloud Server</strong> is the recommended solution for organizations with several hundred
+            Terabytes of capacity requirement. Your organization may rely on expensive public cloud storage and also store a lot of data locally
+            causing you to switch between local and cloud and ultimately resulting in inefficiency and loss of productivity.
+          </p>
+          <p text-indent>
+            With Rockstor as your <strong>Cloud Server</strong>, you can
+          <ul>
+            <li>Build your Private Cloud Storage and empower your organization with a hybrid workflow leveraging the best of both public and private
+              cloud storage
+            </li>
+            <li>Seamlessly integrate with public cloud storage resulting in efficiency and lower operating cost</li>
+            <li>Scale your storage needs with low incremental cost</li>
+            <li>Manage your storage with little to no IT experience</li>
+          </ul>
+          </p>  <a href="smb-private-cloud-btrfs-nas-server.html" class="about_btn">More info</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution_box">
+          <h2>Traditional NAS server</h2>
+          <p text-indent>
+            Rockstor Traditional NAS Server is the recommended solution if you need a robust NAS server without bells and whistles. It allows you to
+            access centralized storage over the network (NAS). While Linux has become the best platform for many things with great filesystems, it
+            lacked one like NetApp's WAFL or Sun's ZFS until recently. BTRFS is rapidly filling that void by offering many great features.
+          </p>
+
+          <p text-indent>
+            With Rockstor as your <strong>NAS Server</strong>, you can
+          <ul>
+            <li>Use the capabilities and amazing feature-set of BTRFS without being a seasoned Linux professional.</li>
+            <li>Realize the full potential of BTRFS as a NAS file-system</li>
+            <li>Enjoy the benefits of BTRFS while easily managing everything from Rockstor's Web-User Interface</li>
+          </ul>
+          </p>  <a href="linux-btrfs-nas-server.html" class="about_btn">More info</a>
+        </div>
+        <div class="col-md-6 solution_box">
+          <h2>Custom Solutions</h2>
+          <p text-indent>
+            Rockstor as a Cloud and Storage platform enables hackers, maker and DIYers to build custom solutions for their projects. Storage is an
+            essential part of many creative software and hardware projects – be it an embedded project or a web application, but options for a robust
+            storage layer are limited.
+          </p>
+          <p text-indent>
+            With Rockstor, you can
+          <ul>
+            <li>Build your own dependable storage platform in a short time</li>
+            <li>Install Rockstor on almost any hardware or hypervisor</li>
+            <li>Use Rockstor APIs to provision resources on demand</li>
+            <li>Take full advantage of BTRFS and customize it to your needs</li>
+            <li>Join our community with strong hacker presence and benefit from knowledge sharing</li>
+          </ul>
+          </p>  <a href="customizable-btrfs-nas-storage-platform.html"
+                   class="about_btn">More info</a>
+        </div>
+      </div>
+    </div>
+    <!--/.row-->
+  </section>
+  <!--solution-->
+</div>
+<!--maincontainer-->
+
+<!-- Features Section -->
+<section id="feature">
+  <div class="container">
+    <div class="center wow fadeInDown">
+      <br> <a href="features.html"><h2>Features</h2></a>
+      <p class="lead">An overview of top features in Rockstor. Click on each icon to read more.</p>
+    </div>
+    <div class="row">
+      <div class="features">
+        <div id="topRow" class="col-md-12">
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#linux"><i class="fa fa-linux"></i></a>
+              <p>
+                Linux, BTRFS based open source storage OS. Runs on commodity hardware.
+              </p>
+            </div>
+          </div>
+          <!--/.col-md-4-->
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#bitrot"><i class="fa fa-magic"></i></a>
+              <p>
+                Bitrot protection, checksums, compression and other advanced filsystem(BTRFS) features.
+              </p>
+            </div>
+          </div>
+          <!--/.col-md-4-->
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#gui"><i class="fa fa-simplybuilt"></i></a>
+              <p>
+                Simple GUI installer and secure browser based management.
+              </p>
+            </div>
+          </div>
+          <!--/.col-md-4-->
+        </div>
+        <!--closing Top Row -->
+        <div id="middleRow1" class="col-md-12">
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#snapshot"><i class="fa fa-files-o"></i></a>
+              <p>
+                Copy-on-write Snapshots of Shares on demand and on schedule.
+              </p>
+            </div>
+          </div>
+          <!--/.col-md-4-->
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#file_share"><i class="fa fa-share-alt"></i></a>
+              <p>
+                File sharing and access from Linux, Mac, Windows and Mobile devices.
+              </p>
+            </div>
+          </div>
+          <!--/.col-md-4-->
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#clones"><i class="fa fa-files-o"></i></a>
+              <p>
+                Instant and efficient Clones of Shares and Snapshots.
+              </p>
+            </div>
+          </div>
+          <!--/.col-md-4-->
+        </div>
+        <!-- Closing Middle Row -->
+        <div id="middleRow2" class="col-md-12">
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#capacity_scale"><i class="fa fa-arrows-v"></i></a>
+              <p>
+                Fast and online vertical capacity scaling.
+              </p>
+            </div>
+          </div>
+          <!--/.col-md-4-->
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#backup"><i class="fa fa-undo"></i></a>
+              <p>
+                File backup with Rsync, Apple Time Machine and Windows Backup.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#replication"><i class="fa fa-refresh"></i></a>
+              <p>
+                Disaster recovery is made easy by Rockstor to Rockstor replication.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Closing 2nd Middle Row -->
+        <div id="bottomRow" class="col-md-12">
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#apps"><i class="fa fa-ship"></i></a>
+              <p>
+                Apps(Rock-ons) for media streaming, backups, cloud storage and more.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#rest_api"><i class="fa fa-plug"></i></a>
+              <p>
+                REST API for application developers.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 wow fadeInDown"
+               data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="feature-wrap">
+              <a href="features.html#dashboard"><i class="fa fa-tachometer"></i></a>
+              <p>
+                Resource monitoring with customizable Dashboard and SNMP.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+      </div>
+      <!--/.features-->
+    </div>
+    <!--/.row-->
+  </div>
+  <!--/.container-->
+</section>
+<!--End of Features-->
+
+<section id="resources" class="service-item">
+  <div class="container">
+    <div class="center wow fadeInDown">
+      <h2>Resources</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <a href="docs/quickstart.html" target="_blank">
+          <div class="media resources-wrap wow fadeInDown">
+            <div class="media-body">
+              <h3 class="media-heading">Quick Start</h3>
+              <p>
+                Want to quickly get running with Rockstor? Here's the shortest guide you'll ever need.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="docs/" target="_blank">
+          <div class="media resources-wrap wow fadeInDown">
+            <div class="media-body">
+              <h3 class="media-heading">Documentation</h3>
+              <p>
+                Everything you need to know, from quickstart guide to screengrabs and more.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://forum.rockstor.com/c/Wiki-style-collaborative-KB-posts" target="_blank">
+          <div class="media resources-wrap wow fadeInDown">
+            <div class="media-body">
+              <h3 class="media-heading">Wiki</h3>
+              <p>
+                Collaborative Technical docs on the how, what, and why of Rockstor's workings.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!--  closing the row -->
+    <div class="row">
+      <div class="col-md-4">
+        <a href="https://forum.rockstor.com/" target="_blank">
+          <div class="media resources-wrap wow fadeInDown">
+            <div class="media-body">
+              <h3 class="media-heading">Forum</h3>
+              <p>
+                We are a friendly and resourceful community. Join, participate, and be awesome.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="docs/faq.html" target="_blank">
+          <div class="media resources-wrap wow fadeInDown">
+            <div class="media-body">
+              <h3 class="media-heading">FAQ</h3>
+              <p>Got a question? Check here first. If it's not answered there, hit the forum or email us.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://github.com/rockstor/rockstor-core/issues" target="_blank">
+          <div class="media resources-wrap wow fadeInDown">
+            <div class="media-body">
+              <h3 class="media-heading">Issue Tracker</h3>
+              <p>
+                We are on GitHub. Open a feature request, bug, comment, or even a pull request.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!--/.row-->
+  </div>
+  <!--/.container-->
+</section>
+<!--/#resources-->
+
+<section id="partner">
+  <div class="container">
+    <div class="center wow fadeInDown">
+      <h2>Our Partners</h2>
+    </div>
+    <div class="partners">
+      <ul>
+        <li>
+          <a href="http://www.45drives.com" target="_blank"> <img class="img-responsive wow fadeInDown"
+                                                                  data-wow-duration="1000ms" data-wow-delay="300ms"
+                                                                  src="/media/images/45drives.jpg"> </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--/.container-->
+</section>
+<!--/#partner-->
+
+<footer id="footer" class="midnight-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">Copyright ©2015 RockStor, Inc.</div>
+      <div class="col-sm-6">
+        <ul class="pull-right">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-us.html">About Us</a></li>
+          <li><a href="/legal.html">Terms of Use</a></li>
+          <li><a href="/privacy_policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
