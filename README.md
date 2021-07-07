@@ -1,9 +1,9 @@
 # Contributions
 This repo is periodically published to:
 
-[rockstor.com](https://https://rockstor.com/)
+[rockstor.com](https://rockstor.com/)
 
-For contribution guidelines, see: [Contributing to Rockstor documentation](http://rockstor.com/docs/contribute_documentation.html)
+For contribution guidelines, see: [Contributing to Rockstor documentation](https://rockstor.com/docs/contribute_documentation.html)
 
 # History
 This website was initially developed using a Python based static site generator believed to be [hyde](https://github.com/hyde/hyde).
