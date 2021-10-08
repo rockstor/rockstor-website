@@ -1,0 +1,14 @@
+{{ with .Site.GetPage "/sysalerts" }}
+<div id="alerts">
+  <div class="row center">
+    <div class="col-md-8 col-md-offset-2">
+      <div style="color:#EB6841; font-size:25px;">
+        {{ range .Pages }}
+          {{ .Content }}{{.ExpiryDate | dateFormat "02 Jan 3 pm MST"}}
+        <p/>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

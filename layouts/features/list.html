@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<main id="main">
+  <section id="feature-header">
+    <div class="container">
+      <div class="center">
+        <h1 id="title">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    {{ range $index,$page := .Data.Pages }}
+
+    {{ .Scratch.Set "formatClass" (print "feature" (add (mod $index 2) 1)) }}
+
+    {{ .Render "ffull"}}
+
+    {{ end }}
+
+  </div>
+</main>
+
+{{ end }}

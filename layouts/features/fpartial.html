@@ -1,0 +1,42 @@
+{{ $pageKind := .Kind }}
+{{ with .Site.GetPage "/features" }}
+<section id="feature">
+  <div class="container">
+    <div class="center">
+      {{ if eq $pageKind "home" }}
+      <h2> {{ .Params.shorttitle }}</h2>
+      <h4> {{ .Params.subtitle }}, or use <a href="{{ .Permalink }}">List View</a></h4>
+      {{ .Summary }}
+
+      {{ else if eq $pageKind "page" }}
+      <h4> {{ .Params.subtitle }}, or use <a href="{{ .Permalink }}">List View</a></h4>
+
+      {{ end }}
+      <hr>
+    </div>
+    <div class="row">
+      <div class="features">
+        {{ range $index,$page := .Pages }}
+
+        {{ if modBool $index 3 }}
+        <div class="col-md-12">
+          {{ .Render "fsummary"}}
+
+          {{ else }}
+
+          {{ .Render "fsummary"}}
+
+          {{ end }}
+
+          {{ if modBool (add $index 1) 3 }}
+        </div>
+        {{ end }}
+
+        {{ end }}
+
+      </div>
+
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,48 @@
+<div class="{{ .Scratch.Get `formatClass` }}">
+  <div class="row">
+    <div class="col-md-11 center">
+      <h2>{{ (title .Params.machine) }}</h2>
+
+      {{ $installermap := (dict "iso" "dd" "xz" "xzcat" )}}
+
+      {{ range $dlindex,$dlfilename := (slice ($.Scratch.Get "filename") ($.Scratch.Get "filename2") ) }}
+
+      {{ if $dlfilename }}
+
+      {{ if strings.HasSuffix $dlfilename "qcow2" }}<p/>
+      <p/>Also pre-sized (16GB) qcow2 format:<br/> {{end}}
+
+      {{ range $index,$extension := (slice "" ".sha256") }}
+
+      {{ $url := (print ($.Scratch.Get "filepath") "/" $dlfilename) }}
+
+      <a href="{{ $url }}{{ $extension }}">{{ $dlfilename }}{{ $extension }}</a> <br/>
+
+      {{ if $extension }}Image Test: <strong>sha256sum -c {{ $dlfilename }}{{ $extension }}</strong>{{ end }}
+
+      {{ if (and ($extension) (not (strings.HasSuffix $dlfilename "qcow2") ) )}}<br/>Transfer to (sdX): <strong>
+
+      {{ if strings.HasSuffix $dlfilename "iso" }}
+
+      {{ index $installermap "iso" }} if={{ $dlfilename }} of=/dev/sdX
+
+      {{ else if strings.HasSuffix $dlfilename "xz" }}
+
+      {{ index $installermap "xz" }} {{ $dlfilename }} | dd bs=4M of=/dev/sdX iflag=fullblock conv=notrunc status=progress
+
+      {{ end }} </strong>
+
+      {{ end }}
+
+      {{ end }} <br>
+
+      {{ end }}
+
+      {{end}}
+
+      <br/> {{.Content}}
+    </div>
+
+
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="contact" id="contact">
+  <div class="center">
+
+    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
+
+      {{ range .Site.Params.social }}
+
+      <i style="color: #EB6841;" class="{{ .icon }}"></i>
+
+      <a style="color: #EB6841; font-size: 20px;" href="{{ .link | safeURL }}" target="_blank"> {{ .label }}</a> <br/>
+      <p>{{ .text | markdownify }}</p>
+
+      {{ end }}
+
+      {{ range .Site.Params.email }}
+
+      <i style="color: #EB6841;" class="{{ .icon }}"></i>
+
+      <a style="color: #EB6841; font-size: 20px;" href="{{ .link | safeURL }}" target="_blank"> {{ .label }}</a> <br/>
+      <p>{{ .text | markdownify }}</p>
+
+      {{ end }}
+
+
+    </div>
+
+  </div>
+</div>

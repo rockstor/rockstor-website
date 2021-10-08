@@ -1,0 +1,22 @@
+{{ with .Site.GetPage "/solutions" }}
+<section id="solution">
+  <div class="container">
+    {{ range $index,$page := first 4 .Pages }}
+
+    {{ if modBool $index 2 }}
+    <div class="row">
+      {{ end }}
+      <div class="col-md-6 solution_box">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ .Summary }} {{ if .Truncated }} <a href="{{ .RelPermalink }}" class="about_btn">Read More…</a> {{ end }}
+      </div>
+
+      {{ if not (modBool $index 2) }}
+    </div>
+    {{ end }}
+
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,16 @@
+{{ with .Site.GetPage "/partners" }}
+<section id="partner">
+  <div class="container center">
+    <h2>Our Partners</h2>
+    {{ .Content }}
+    <ul class="list-inline">
+      {{ range .Pages }}
+      <li>
+        <a href="{{.Params.link}}" target="_blank"> <img class="img-responsive col-xs-12" src="{{ .Params.icon}}"> </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  <!--/.container-->
+</section>
+{{ end }}
