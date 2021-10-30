@@ -126,7 +126,7 @@ weight = 5
 
 [[menu.main]]
 name = "Downloads"
-pageRef = "downloads.md"
+pageRef = "dls.md"
 weight = 6
 
 # N.B. we have a Download button as our last header Menu item.
