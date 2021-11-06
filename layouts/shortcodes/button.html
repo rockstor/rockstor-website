@@ -1,5 +1,5 @@
 {{ if and (.Get "label") (.Get "link") }}
-<a class="btn-down" href="{{ .Get `link` }}" target="_blank">{{ .Get "label" }}</a>
+<a class="about_btn" href="{{ .Get `link` }}" target="_blank">{{ .Get "label" }}</a>
 {{ else }}
 {{ errorf "missing value for param: %s" .Position }}
 {{ end }}
