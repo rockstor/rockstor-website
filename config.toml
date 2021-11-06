@@ -72,7 +72,7 @@ hasChildren = true
   url = "/docs/faq.html"
   weight = 2
 
-    [[menu.main]]
+  [[menu.main]]
   parent = "Resources"
   name = "Quick Start"
   url = "/docs/quickstart.html"
@@ -86,9 +86,15 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Resources"
+  name = "EULA"
+  PageRef = "eula.md"
+  weight = 5
+
+  [[menu.main]]
+  parent = "Resources"
   name = "Commercial Support"
   PageRef = "commercial_support.md"
-  weight = 5
+  weight = 6
 
 [[menu.main]]
 name = "Community"
