@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section id="main">
+  <div class="container center">
+    <h1 id="title">{{ .Title }}</h1>
+    <div class="row-fluid">
+      <div class="span8">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span8">
+        {{ partial "contact.html" . }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

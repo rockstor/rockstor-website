@@ -1,0 +1,22 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ with .Title }}{{ . }}{{ else }}{{ with site.Title }}{{ . }}{{ end }}{{ end }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ "<!-- Favicon --> " | safeHTML }}
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/png">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/png">
+
+  {{ with site.Params.author }}
+  <meta name="author" content="{{ . }}">
+  {{ end }}
+
+  {{ "<!-- CSS Plugins --> " | safeHTML }} {{ range site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .link | absURL }} ">
+  {{ end }}
+
+  {{ "<!-- JS Plugins --> " | safeHTML }} {{ range site.Params.plugins.js}}
+  <script src="{{ .link | absURL }}"></script>
+  {{ end }}
+
+</head>

@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main aria-role="main">
+  <header class="page-header-rockstor" style="background-color: grey">
+    {{ with .Params.subtitle }} <span class="subtitle">{{.}}</span> {{ end }}
+
+    {{ partial "sysalerts.html" . }}
+
+    {{ partial "banner.html" . }}
+  </header>
+  <div class="center homepage-content" style="background-color: grey">
+    {{.Content}}
+  </div>
+  {{ partial "solutions-summary.html" . }}
+
+  {{ .Render "features/fpartial" }}
+
+  {{ partial "partners.html" . }}
+</main>
+{{ end }}

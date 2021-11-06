@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<main id="main">
+  <section id="downloads-header">
+    <div class="container">
+      <div class="center">
+        <h1 id="title">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    {{ $pref_os_order := .Site.Params.downloads_os_order }}
+
+    {{ $orig_downloads_map := .Site.Taxonomies.os}}
+
+    {{ range $each_os := $pref_os_order }}
+
+    {{ $each_os_downloads := index $orig_downloads_map $each_os}}
+
+    {{ $osvendor := "openSUSE"}}
+    <!-- Legacy OS vendor -->{{ if eq $each_os "centos7.1511" }} {{ $osvendor = "RedHat"}} {{ end }}
+
+    <section id="{{ $each_os }}">
+      <hr>
+      <div class="col-sm-4">
+        <h3 style="color:#EB6841; font-size:28px; text-align:center;"> Built on {{ $osvendor }} {{ ( title $each_os ) }}</h3>
+        <hr>
+      </div>
+    </section>
+
+    {{ range $index,$page := sort $each_os_downloads.Pages "Params.arch" "desc"}}
+
+    {{ .Scratch.Set "formatClass" (print "feature" (add (mod $index 2) 1)) }}
+
+
+    {{ $basepath := (print .Site.Params.downloadsserver .Site.Params.downloadsbaseurl) }}
+
+    {{ $osname := lower (replaceRE "[0-9|.]*" "" .Params.os ) }}
+
+    {{ $osnumber := (replaceRE "^[a-z|A-Z]*" "" .Params.os ) }}
+
+    {{ .Scratch.Set "filepath" (print $basepath $osname "/" $osnumber "/" .Params.arch ) }}
+
+
+    {{ $file := (print "Rockstor-" .Params.os "-" .Params.machine "." .Params.arch "-" .Params.rpm_version "-" .Params.rpm_release) }}
+
+    {{ if eq .Params.machine "generic" }}
+
+    {{ .Scratch.Set "filename" (print $file ".install.iso") }}
+
+    {{ else }}
+
+    {{ if eq .Params.machine "ARM64EFI"}} {{ .Scratch.Set "filename2" (print $file ".qcow2")}} {{ end }}
+
+    {{ .Scratch.Set "filename" (print $file ".raw.xz") }}
+
+    {{ end }}
+
+    {{ if (and (ne .Params.os "diy") (ne .Params.os "rpm") ) }}
+
+    {{ .Render "download-entry"}}
+
+    {{ else }} {{partial "diy-installer" .}} {{ end }}
+
+    {{ end }}
+
+    {{ end }}
+  </div>
+</main>
+
+{{ end }}

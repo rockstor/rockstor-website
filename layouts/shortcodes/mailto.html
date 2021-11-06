@@ -1,0 +1,7 @@
+{{ with $.Page.Site.Params.email }}
+{{ range . }}
+<i style="color: #EB6841;" class="{{ .icon }}"></i> <a href="{{ .link }}" class="link-highlight"> {{ .label }}</a>
+{{ end }}
+{{ else }}
+{{ errorf "missing value for param 'email': %s" .Position }}
+{{ end }}

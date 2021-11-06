@@ -1,0 +1,49 @@
+<header id="header">
+  <nav class="navbar navbar-inverse" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{site.BaseURL}}"> <img style="width:150px;" src="{{ site.Params.logo | absURL }}" alt="{{site.Title}}"> </a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right">
+
+        <ul class="nav navbar-nav">
+          {{ range site.Menus.main }}
+
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+            <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false"> {{ .Name }} </a>
+            <ul class="dropdown-menu">
+              {{ range .Children }}
+              <li><a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+          </li>
+
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link text-uppercase text-dark" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+
+          {{ end }}
+          <li>
+            <ul class="social_icons">
+              {{ range where site.Params.social ".header" "eq" "true" }}
+              <li class="list-inline-item"><a href="{{ .link | safeURL }}" class="text-dark"><i class="{{ .icon }}"></i></a></li>
+              {{ end }}
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+    <!--/.container-->
+  </nav>
+  <!--/nav-->
+</header>

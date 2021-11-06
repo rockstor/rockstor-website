@@ -1,0 +1,16 @@
+<div class="{{ .Scratch.Get `formatClass` }}">
+  <div class="row">
+
+    <div class="col-md-2">
+      <div class="feature-wrap">
+        <a href="{{ .Params.doclink }}" target="_blank"> <i class="{{ .Params.icon}}"></i></a>
+      </div>
+    </div>
+
+    <div class="col-md-10">
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,207 @@
+baseURL = 'https://rockstor.com/'
+languageCode = 'en-us'
+title = 'Rockstor | Linux & BTRFS powered Opensource NAS solution'
+
+# Min Hugo version (normally in theme.toml)
+# https://gohugo.io/getting-started/configuration/#cascade
+# allows PageRef instead of url in menu items.
+# https://gohugo.io/variables/menus/#menu-entry-variables
+# Localized Time and Dates and Numbers
+# https://gohugo.io/news/0.87.0-relnotes/
+min_version = "0.87.0"
+enableInlineShortcodes = true
+
+# We are creating like-for-like from prior Hyde created site so maintain:
+# https://gohugo.io/content-management/urls/#ugly-urls
+uglyurls = true
+
+# Althought we arrange our content hierarchically internally, we are
+# historically flat in our presentation. I.e. all pages in baseURL.
+[permalinks]
+  solutions = '/:filename'
+
+# I.e. about-us.md or about-us.fr.md
+defaultContentLanguage = 'en'
+
+# navigation
+[[menu.main]]
+name = "Solutions"
+url = ""
+weight = 1
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Solutions"
+  name = "Personal Cloud server"
+  PageRef = "personal-cloud-btrfs-nas-server.md"
+  weight = 1
+
+  [[menu.main]]
+  parent = "Solutions"
+  name = "SMB Cloud server"
+  PageRef = "smb-private-cloud-btrfs-nas-server.md"
+  weight = 2
+
+  [[menu.main]]
+  parent = "Solutions"
+  name = "Traditional NAS server"
+  PageRef = "linux-btrfs-nas-server.md"
+  weight = 3
+
+  [[menu.main]]
+  parent = "Solutions"
+  name = "Custom solutions"
+  PageRef = "customizable-btrfs-nas-storage-platform.md"
+  weight = 4
+
+[[menu.main]]
+name = "Resources"
+url = ""
+weight = 2
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Resources"
+  name = "Documentation"
+  url = "/docs/"
+  weight = 1
+
+  [[menu.main]]
+  parent = "Resources"
+  name = "FAQ"
+  url = "/docs/faq.html"
+  weight = 2
+
+    [[menu.main]]
+  parent = "Resources"
+  name = "Quick Start"
+  url = "/docs/quickstart.html"
+  weight = 3
+
+  [[menu.main]]
+  parent = "Resources"
+  name = "Features List"
+  PageRef = "features.md"
+  weight = 4
+
+  [[menu.main]]
+  parent = "Resources"
+  name = "Commercial Support"
+  PageRef = "commercial_support.md"
+  weight = 5
+
+[[menu.main]]
+name = "Community"
+url = ""
+weight = 3
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Community"
+  name = "Forum"
+  url = "https://forum.rockstor.com/"
+  weight = 1
+
+  [[menu.main]]
+  parent = "Community"
+  name = "Tech Wiki"
+  url = "https://forum.rockstor.com/c/Wiki-style-collaborative-KB-posts"
+  weight = 2
+
+  [[menu.main]]
+  parent = "Community"
+  name = "Issue Tracker"
+  url = "https://github.com/rockstor/rockstor-core/issues/"
+  weight = 3
+
+[[menu.main]]
+name = "About Us"
+pageRef = "about-us.md"
+weight = 4
+
+[[menu.main]]
+name = "Shop"
+url = "https://shop.rockstor.com/"
+weight = 5
+
+[[menu.main]]
+name = "Downloads"
+pageRef = "dls.md"
+weight = 6
+
+# N.B. we have a Download button as our last header Menu item.
+# See layouts/partials/header.html
+
+[taxonomies]
+  os = "os"
+
+# default parameters
+[params]
+# Downloads
+downloadsbaseurl = "downloads/installer/"
+downloadsserver = "https://rockstor.com/"
+logo = "images/rockstorlogo-font2.png"
+author = "See: AUTHORS file."
+# Website copyright notice (markdownify)
+copyright = "Copyright &copy; 2021 Rockstor inc."
+# use lowercase version of frontmatter os
+downloads_os_order = ["leap15.3","leap15.2", "diy", "centos7.1511", "rpm"]
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "css/font-awesome.min.css"
+[[params.plugins.css]]
+link = "css/animate.min.css"
+[[params.plugins.css]]
+link = "css/majorColorChange.css"
+[[params.plugins.css]]
+link = "css/responsive.css"
+
+
+# JS Plugins
+[[params.plugins.js]]
+link = "js/respond.min.js"
+[[params.plugins.js]]
+link = "js/jquery.js"
+[[params.plugins.js]]
+link = "js/bootstrap.min.js"
+
+
+# text is markdown
+[[params.email]]
+icon = "fa fa-envelope-o fa-2x"
+link = "mailto:support@linuxlines.com"
+label = "Support Email"
+text = "Email for support, questions, or advice."
+
+
+# Social Media
+# text is markdown
+[[params.social]]
+icon = "fa fa-users fa-2x"
+link = "https://forum.rockstor.com/"
+label = "Forum"
+text = "Our Friendly Forum. Announcements, community support, questions, etc... **All currently active developers are forum members.**"
+header = "true"
+[[params.social]]
+icon = "fa fa-github fa-2x"
+link = "https://github.com/rockstor"
+label = "GitHub"
+text = "Request a feature, report a bug, or fork us on GitHub."
+header = "true"
+[[params.social]]
+icon = "fa fa-twitter fa-2x"
+link = "https://twitter.com/rockstor4"
+label = "@rockstor4"
+text = "Current maintainer/distributor."
+header = "true"
+[[params.social]]
+icon = "fa fa-twitter fa-2x"
+link = "https://twitter.com/rockstorinc"
+label = "@rockstorinc"
+text = "Prior Maintainer - Rockstor, Inc. (Domain/Trademark admin)"
+header = "false"
+
+

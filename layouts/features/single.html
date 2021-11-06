@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section id="content">
+  <div class="container">
+    <h1 id="title">{{ .Title }}</h1>
+    {{ .Content }}
+    <div class="center">
+      <a href="{{ .Params.doclink}}" target="_blank">(Docs)</a>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <hr>
+</div>
+{{ .Render "fpartial" }}
+{{ end }}
