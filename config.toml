@@ -139,7 +139,7 @@ weight = 6
 [params]
 # Downloads
 downloadsbaseurl = "downloads/installer/"
-downloadsserver = "http://build.lan/"
+downloadsserver = "https://rockstor.com/"
 logo = "images/rockstorlogo-font2.png"
 author = "See: AUTHORS file."
 # Website copyright notice (markdownify)
