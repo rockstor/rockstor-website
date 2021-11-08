@@ -18,7 +18,7 @@ And is the same as that displayed / agreed-to during our [kiwi-ng](https://githu
 See the following file in our [rockstor-installer](https://github.com/rockstor/rockstor-installer/blob/master/config.sh) repository.
 
 As indicated in [openSUSE:Trademark guidelines](https://en.opensuse.org/openSUSE:Trademark_guidelines) we are required to make these changes.
-We are also required to us one of the preferred terms when referencing our new upstream base and we have chosen to use: **Built on openSUSE** & **Uses openSUSE**.
+We are also required to use one of the given terms when referencing our new upstream: we have chosen to use: **Built on openSUSE** & **Uses openSUSE**.
 Examples of this use during the installer can be seen in our [Rockstor’s “Built on openSUSE” installer](https://rockstor.com/docs/installation/installer-howto.html) document section.
 
 We thank openSUSE / SuSE and the wider open source community for such excellent resources as the Leap base we use, [kiwk-ng](https://github.com/OSInside/kiwi), and the [Open Build Service (OBS)](https://build.opensuse.org/).
