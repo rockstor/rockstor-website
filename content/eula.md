@@ -59,7 +59,7 @@ used by permission. This agreement permits you to distribute
 unmodified or modified copies of Rockstor Leap 15.3 using the
 “Rockstor” trademark on the condition that you follow The Rockstor
 Project’s trademark guidelines located at
-http://rockstor.com/legal.html. You must abide by these trademark
+https://rockstor.com/legal.html. You must abide by these trademark
 guidelines when distributing Rockstor Leap 15.3, regardless of whether
 Rockstor Leap 15.3 has been modified.
 
@@ -83,7 +83,7 @@ OF THE USE OR INABILITY TO USE ROCKSTOR Leap 15.3, EVEN IF THE ROCKSTOR
 PROJECT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  IN A
 JURISDICTION THAT LIMITS THE EXCLUSION OR LIMITATION OF DAMAGES,
 THE ROCKSTOR PROJECT’S (AND ITS LICENSORS’, SUBSIDIARIES’, AND
-EMPLOYEES’) AGGREGATE LIABILITY IS LIMITED TO $24US, OR IF SUCH A
+EMPLOYEES’) AGGREGATE LIABILITY IS LIMITED TO 1ST SUBSCRIPTION PAYED, OR IF SUCH A
 LIMITATION IS NOT ALLOWED, IS LIMITED TO THE MAXIMUM EXTENT ALLOWED.
 
 You acknowledge that Rockstor Leap 15.3 is subject to the U.S. Export
@@ -124,7 +124,7 @@ is subject to the restrictions in FAR 52.227-14 (Dec 2007)
 Alternate III (Dec 2007), FAR  52.227-19 (Dec 2007), or DFARS
 252.227-7013(b)(3) (Nov 1995), or applicable successor clauses.
 
-Copyright © 2008-2021 The Rockstor Project. All rights
+Copyright © 2012-2021 The Rockstor Project. All rights
 reserved. "Store Smartly" and "Rockstor" are registered trademarks of Rockstor, Inc.,
 or its affiliates, which founded, sponsors, and is designated by, The Rockstor
 Project. "Linux" is a registered trademark of Linus Torvalds. All
