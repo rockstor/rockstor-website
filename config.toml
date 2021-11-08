@@ -116,9 +116,15 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Community"
+  name = "Old Blog"
+  PageRef = "blog.md"
+  weight = 3
+
+  [[menu.main]]
+  parent = "Community"
   name = "Issue Tracker"
   url = "https://github.com/rockstor/rockstor-core/issues/"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
 name = "About Us"
@@ -211,3 +217,19 @@ text = "Prior Maintainer - Rockstor, Inc. (Domain/Trademark admin)"
 header = "false"
 
 
+# Privacy settings for Hugo Buil-ins
+# https://gohugo.io/about/hugo-and-gdpr/
+# https://gohugo.io/about/hugo-and-gdpr/#disable-all-services
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true

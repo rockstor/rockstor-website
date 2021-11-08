@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<main id="main">
+  <section id="blog-header">
+    <div class="container">
+      <div class="center">
+        <h1 id="title">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    {{ range $index,$page := .Data.Pages }}
+    <hr>
+    <h1>{{ .Title }}</h1>
+    By <strong>{{ .Params.author }}</strong> Word Count {{ .WordCount }}<br>
+
+    First Published <strong>on {{ .Date | dateFormat "02 Jan 2006" }}</strong>
+
+    {{ .Summary }}
+
+    {{ $header_image := .Resources.GetMatch "header" }}
+    <figure>
+      <a href="{{ .RelPermalink }}"> <img src="{{ $header_image.RelPermalink }}" alt="Header Image" width="100%"> </a>
+    </figure>
+    {{ if .Truncated }} <a href="{{ .RelPermalink }}" class="about_btn">Read More…</a> {{ end }}
+
+
+    {{ end }}
+    <hr>
+
+  </div>
+</main>
+
+{{ end }}

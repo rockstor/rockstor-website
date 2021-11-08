@@ -7,6 +7,13 @@ For contribution guidelines, see: [Contributing to Rockstor documentation](https
 For content additions/changes please stick to **one sentence per line** as this helps with translations and reviews of changes.
 Really long sentences may be broken at punctuation points.
 See [Semantic Linefeeds](https://rhodesmill.org/brandon/2012/one-sentence-per-line/) which sites Brian W. Kernighan (1974).
+Our EULA content is the one exception: to aid in tracking upstream.
+
+Our [privacy_policy](https://rockstor.com/privacy_policy.html) has "... no cookies are used." for this site.
+So we cannot include such things as for example the Hugo YouTube embed build-in shortcode.
+Even with "[privacyEnhanced](https://gohugo.io/about/hugo-and-gdpr/#youtube) = true" our visitors will still incur cookies.
+Instead use "See YouTube video-title-as-watch-link".
+See: https://gohugo.io/about/hugo-and-gdpr/
 
 ## Debug build
 The minimum version of Hugo required is indicated in the top level config file "config.toml".
@@ -40,6 +47,6 @@ This was done primarily to aid maintenance/use and to include our website develo
 
 # Hopes 
 We want to add French & European Portuguese etc translations.
-But we must first enable and configure Hugu's built-in multi lingual capabilities.
+But we must first enable and configure Hugo's built-in multi lingual capabilities.
 This is to be tackled in a dedicated GitHub issue.
 If you are game to offer any translations then please be patient as we work towards this capability.
