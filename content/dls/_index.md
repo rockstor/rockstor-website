@@ -2,6 +2,8 @@
 title: "Downloads"
 date: 2021-10-08T18:54:52+01:00
 draft: false
+aliases:
+    - /download.html
 _build:
   render: true
 # children build options with cascade
