@@ -8,9 +8,9 @@ os: "Leap15.3"
 os_weight: 50
 machine: "RaspberryPi4"
 arch: "aarch64"
-rpm_version: "4.0.9"
+rpm_version: "4.1.0"
 rpm_release: "0"
 installer_patch: ""
 ---
 
-Recommended for Pi 400.
+Also Pi 400 compatible.

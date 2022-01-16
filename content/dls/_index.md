@@ -15,9 +15,9 @@ cascade:
 {{< center-this >}}
 ## Install using the options below.
 
-## Pre-built Rockstor 4 installers are Release Candidate 10.
+## "Built on openSUSE" installers use 1st v4 Stable release.
 
-*Rockstor 4.0.9-0 = Stable Release Candidate 10 (recommended for new installs)*
+*Rockstor 4.1.0-0 = First "Built on openSUSE" Stable Release*
 
 *Rockstor 4 is now also Pi4 & ARM64 [Embedded Boot](https://github.com/ARM-software/ebbr) / [Server Boot](https://github.com/ARM-software/sbsa-acs) compatible.*
 

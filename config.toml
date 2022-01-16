@@ -155,9 +155,9 @@ downloadsserver = "https://rockstor.com/"
 logo = "images/rockstorlogo-font2.png"
 author = "See: AUTHORS file."
 # Website copyright notice (markdownify)
-copyright = "Copyright &copy; 2021 Rockstor inc."
+copyright = "Copyright &copy; 2022 Rockstor inc."
 # use lowercase version of frontmatter os
-downloads_os_order = ["leap15.3", "diy", "centos7.1511", "rpm"]
+downloads_os_order = ["leap15.3", "diy", "rpm", "centos7.1511"]
 
 # CSS Plugins
 [[params.plugins.css]]
