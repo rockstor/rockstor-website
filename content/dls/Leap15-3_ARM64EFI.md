@@ -8,9 +8,11 @@ os: "Leap15.3"
 os_weight: 50
 machine: "ARM64EFI"
 arch: "aarch64"
-rpm_version: "4.0.9"
+rpm_version: "4.1.0"
 rpm_release: "0"
 installer_patch: ""
 ---
 
 Awaiting Custom Ten64 drivers.
+Consider our [Installing the Stable Kernel Backport](https://rockstor.com/docs/howtos/stable_kernel_backport.html)
+for improved hardware compatibility.

@@ -8,7 +8,7 @@ os: "rpm"
 os_weight: 40
 machine: "generic"
 arch: "x86_64"
-rpm_version: "4.0.9"
+rpm_version: "4.1.0"
 rpm_release: "0"
 installer_patch: ""
 ---
