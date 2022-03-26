@@ -172,8 +172,6 @@ link = "css/responsive.css"
 
 # JS Plugins
 [[params.plugins.js]]
-link = "js/respond.min.js"
-[[params.plugins.js]]
 link = "js/jquery.js"
 [[params.plugins.js]]
 link = "js/bootstrap.min.js"
