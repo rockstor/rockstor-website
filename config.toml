@@ -165,8 +165,6 @@ link = "css/bootstrap.min.css"
 [[params.plugins.css]]
 link = "css/font-awesome.min.css"
 [[params.plugins.css]]
-link = "css/animate.min.css"
-[[params.plugins.css]]
 link = "css/majorColorChange.css"
 [[params.plugins.css]]
 link = "css/responsive.css"
