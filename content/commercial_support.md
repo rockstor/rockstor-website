@@ -10,9 +10,10 @@ draft: false
 
 ## *Incident based support currently unavailable*
 
-#### To be reinstate upon release of our "Built on openSUSE" Stable channel variant.
+#### V4 "Built on openSUSE" now in stable updates. We await some 'shop' technicalities.
 
 #### Apologies for any inconvenience.
+##### Our [downloadable]({{< ref dls.md >}}) installers contains the first v4 stable release.
 
 ---
 
@@ -28,7 +29,7 @@ We aim to: complement your existing IT resources, and minimise down time.
 ## Support Subscription
 
 A Rockstor Incident-Based support subscription is a flexible pay-as-you-go add-on for [Stable Channel](https://rockstor.com/docs/update-channels/update_channels.html#stable-channel) subscribers.
-An incident is defined as a question relating to a specific, discrete issue, and may involve several interactions with the Rockstor team prior to that issue's resolution:
+An incident is defined as a question relating to a specific, discrete issue, and may involve several interactions with the Rockstor team prior to that issue's resolution.
 
 Example incidents:
 
@@ -40,16 +41,16 @@ Example incidents:
 
  --- | Details
  --- | ---
-**Available Bundles** | 2 & 5 Incidents (Currently unavailable) - Larger bundle, less per incident.
-**Valid duration** | 1 year from date of purchase.
-**Support offered by:** | Phone, email, and online collaboration tools.
-**Response Time** | 2 business days (Cases prioritized by severity, we respond as quickly as possible).
-**Service Availability** | 8 AM to 6 PM UTC (UK time) during weekdays, excluding UK Holidays.
+**Valid duration:** | 1 year from date of purchase.
+**Support offered via:** | Phone ([Signal](https://signal.org/)), email, and online collaboration tools including [Zulip](https://rockstor.zulipchat.com).
+**Support Language:** | English, Portuguese to follow in time.
+**Response Time:** | 2 business days: cases prioritized by severity, we respond as quickly as possible.
+**Service Availability:** | 8 AM to 6 PM (Europe/Lisbon) during weekdays, excluding Portugal holidays.
 
 {{< /bootstrap-table >}}
 
 
-Before purchasing a support subscription, please take full advantage of our extensive [documentation](/docs/) and our friendly [community forum](https://forum.rockstor.com/)
+Before purchasing an Incident-Based support subscription, please take full advantage of our extensive [documentation](/docs/) and our friendly [community forum](https://forum.rockstor.com/).
 
 {{< button label="Documentation" link="/docs/" >}}
 {{< button label="Community Forum" link="https://forum.rockstor.com/" >}}
@@ -61,13 +62,13 @@ Before purchasing a support subscription, please take full advantage of our exte
 
 Question | Answer
 --- | ---
-**How much do you charge for Rockstor support?** | Support is charged on a per bundle basis (pricing unavailable until service reinstated: estimated at £200 / incident).
+**How much do you charge for Rockstor support?** | Support is charged on a per incident basis, expected re-launch price €99 + tax (if applicable) per incident.
 **How is an incident defined?** | An incident is defined as a question relating to a specific, discrete issue, and may involve several interactions with the Rockstor team to reach a resolution.
 **What is not an incident?** | If your issue is caused by a Rockstor package software bug then there is no charge. In this case we prioritising the related bugfix.
-**How do I contact you for support?** | Email support and request commercial support. 
+**How do I contact you for commercial support?** | Email support and request commercial support. 
 **Can I purchase support by the hour?** | We do provide professional services for more complex projects, custom development, or integration work. Please email support with your inquiry.
-**Can I get a bundle refund on unused incidents?** | We do not provide refunds on support bundles.
-**How quickly do you respond to my support request?** | Support requests are regularly monitored and we strive to respond as quickly as possible. Realistically, first response may be within 4-12 hours, depending on time zone.
+**Can I get a refund on unused incidents?** | We do not provide refunds on Incident-Based support subscriptions.
+**How quickly do you respond to my commercial support request?** | Commercial support requests are regularly monitored and we strive to respond as quickly as possible. Realistically, first response may be within 4-12 hours, depending on time zone.
 
 {{< /bootstrap-table >}}
 
