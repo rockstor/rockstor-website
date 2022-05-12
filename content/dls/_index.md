@@ -25,5 +25,7 @@ See our [Rockstor’s “Built on openSUSE” installer](/docs/installation/inst
 [Making a Rockstor USB install disk](/docs/installation/quickstart.html#making-a-rockstor-usb-install-disk)
 docs section.
 
+See also: [Migrating from Legacy V3 to V4 “Built on openSUSE”](/docs/howtos/v3_to_v4.html). 
+
 **Preferred options appear higher up in the following list.**
 {{< /center-this >}}
