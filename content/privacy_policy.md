@@ -19,8 +19,19 @@ We do not share user information with any third party service provider other tha
 
 Our "shop" subdomain.
 On subscribing to our Stable channel updates, our shop service provider, [Shopify](https://www.shopify.com/), stores and manages, on their servers, all personal identifiable information provided there according to their policies:
-see [Shopify's GDPR whitepaper](https://help.shopify.com/pdf/gdpr-whitepaper.pdf) & [privacy policy](https://www.shopify.com/legal/privacy).
-We then only use/store, on our own servers, the following non-personal information:
+see [Shopify's GDPR whitepaper](https://help.shopify.com/pdf/gdpr-whitepaper.pdf), [privacy policy](https://www.shopify.com/legal/privacy),
+and [Cookie Policy](https://www.shopify.com/legal/cookies).
+Our specific shop configuration has no Google Analytics enabled and all EU and California user tracking disabled via:
+- "Limit data collection for EU buyers is Activated."
+- "Limit data collection for California buyers is Activated."
+
+See Shopifies help page entitled [Cookies and customer tracking](https://help.shopify.com/en/manual/your-account/privacy/cookies)
+for related information and for an explanation of our above shop settings.
+
+Regardless we also have the recommended [California Consumer Privacy Act (CCPA) opt-out page](https://shop.rockstor.com/pages/ccpa-opt-out).
+Assumed redundant given our configuration.
+
+We then only use/store, on our own servers (located in the EU), the following non-personal information:
 order id & name (eg 1234567890 & #2034), date of purchase, subscription length, discount code if used, appliance id, arbitrary computer name (if later entered in Appman), and renewal reminder sent status.
 However, to fulfill the function of sending the required activation code and later subscription renewal reminder, associated with our subscription service,
 we also store and use the email associated with each Shopify managed order as login id at our [Appliance ID manager](https://appman.rockstor.com/) site.
