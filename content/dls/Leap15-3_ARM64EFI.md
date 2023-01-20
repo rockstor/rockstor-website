@@ -1,6 +1,6 @@
 ---
 title: "Leap15 3_ARM64EFI"
-date: 2021-10-19T17:21:01+01:00
+date: 2023-01-20T17:21:01+01:00
 draft: false
 icon: "fa fa-linux"
 download-base: "/"
@@ -8,10 +8,12 @@ os: "Leap15.3"
 os_weight: 50
 machine: "ARM64EFI"
 arch: "aarch64"
-rpm_version: "4.1.0"
+rpm_version: "4.5.5"
 rpm_release: "0"
 installer_patch: ""
 ---
+
+**NOTE: Leap 15.3 is end of life (EOL)**
 
 Awaiting Custom Ten64 drivers.
 Consider our [Installing the Stable Kernel Backport](https://rockstor.com/docs/howtos/stable_kernel_backport.html)
