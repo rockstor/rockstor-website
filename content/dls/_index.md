@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2023-01-20T18:54:52+01:00
+date: 2023-01-26T18:54:52+01:00
 draft: false
 aliases:
     - /download.html
@@ -17,7 +17,10 @@ cascade:
 
 ## "Built on openSUSE" installers are Stable or RC* status.
 
-*Rockstor 4.5.5-0 = Next Stable Release Candidate (RC2)*
+*Rockstor 4.5.6-0 = Next Stable Release Candidate (RC3)*
+
+[Stable Release Candidate status](https://forum.rockstor.com/t/v4-5-testing-channel-changelog/8546/7) **---**
+[GitHub Milestone](https://github.com/rockstor/rockstor-core/milestone/19)
 
 *Rockstor 4.1.0-0 = First "Built on openSUSE" Stable Release*
 
