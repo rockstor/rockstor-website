@@ -2,7 +2,7 @@
 title: "Resource Monitor via Dashboard and Snmp"
 date: 2021-10-15T17:39:16+01:00
 draft: false
-icon: "fa fa-tachometer"
+icon: "fa-solid fa-gauge"
 doclink: "/docs/interface/docker-based-rock-ons/netdata_official.html"
 ---
 

@@ -2,7 +2,7 @@
 title: "Fast Online/Live Capacity Scaling - Larger or Smaller"
 date: 2021-10-15T15:45:40+01:00
 draft: false
-icon: "fa fa-arrows-v"
+icon: "fa-solid fa-arrows-v"
 doclink: "/docs/interface/storage/pools-btrfs.html#pool-resizing"
 ---
 

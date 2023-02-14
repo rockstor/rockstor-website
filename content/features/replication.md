@@ -2,7 +2,7 @@
 title: "Rockstor to Rockstor Replication"
 date: 2021-10-15T17:04:55+01:00
 draft: false
-icon: "fa fa-refresh"
+icon: "fa-solid fa-share"
 doclink: "/docs/interface/storage/share_replication.html"
 ---
 

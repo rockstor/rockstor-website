@@ -2,7 +2,7 @@
 title: "Build your own Installer"
 date: 2021-10-29T15:42:42+01:00
 draft: false
-icon: "fa fa-linux"
+icon: "fa-solid fa-hands"
 download-base: "/"
 os: "diy"
 os_weight: 40

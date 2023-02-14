@@ -2,7 +2,7 @@
 title: "Bitrot Protection, Checksums, Compression etc courtesy of the BTRFS filesystem"
 date: 2021-10-15T14:14:09+01:00
 draft: false
-icon: "fa fa-magic"
+icon: "fa-solid fa-wand-magic-sparkles"
 doclink: "/docs/introduction/features.html"
 ---
 

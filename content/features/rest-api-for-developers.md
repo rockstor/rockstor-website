@@ -2,7 +2,7 @@
 title: "REST API for App Developers"
 date: 2021-10-15T17:52:48+01:00
 draft: true
-icon: "fa fa-plug"
+icon: "fa-solid fa-plug"
 doclink: "/docs/introduction/features.html"
 ---
 

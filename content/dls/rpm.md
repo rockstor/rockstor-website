@@ -2,7 +2,7 @@
 title: "Install on Vanilla openSUSE/SuSE SLES"
 date: 2021-10-29T18:06:54+01:00
 draft: false
-icon: "fa fa-linux"
+icon: "fa-solid fa-hands"
 download-base: "/"
 os: "rpm"
 os_weight: 40

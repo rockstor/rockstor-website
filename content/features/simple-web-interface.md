@@ -2,7 +2,7 @@
 title: "Simple Web Interface"
 date: 2021-10-15T14:24:36+01:00
 draft: false
-icon: "fa fa-simplybuilt"
+icon: "fa-solid fa-gamepad"
 doclink: "/docs/interface/uis.html"
 ---
 

@@ -2,7 +2,7 @@
 title: "{{ replaceRE  "[-|.]+" " " .Name}}"
 date: {{ .Date }}
 draft: true
-icon: "fa fa-linux"
+icon: "fa-brands fa-linux"
 download-base: "/"
 os: "Leap15.2|Leap15.3"
 os_weight: 40
