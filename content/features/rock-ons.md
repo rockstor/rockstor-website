@@ -2,7 +2,7 @@
 title: "Rock-ons (Docker plugins) - 'There's an App for that'"
 date: 2021-10-15T17:10:15+01:00
 draft: false
-icon: "fa fa-ship"
+icon: "fa-brands fa-docker"
 doclink: "/docs/interface/overview.html"
 ---
 

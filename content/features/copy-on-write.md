@@ -1,8 +1,8 @@
 ---
-title: "Copy on Write (CoW) Snapshots, Shares on demand"
+title: "Copy on Write (CoW) Snapshots"
 date: 2021-10-15T14:41:07+01:00
 draft: false
-icon: "fa fa-files-o"
+icon: "fa-solid fa-cow"
 doclink: "/docs/interface/storage/snapshots-btrfs-snapshots.html#createsnapshot"
 ---
 

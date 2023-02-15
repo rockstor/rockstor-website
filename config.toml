@@ -162,8 +162,13 @@ downloads_os_order = ["leap15.4", "leap15.3", "diy", "rpm", "centos7.1511"]
 # CSS Plugins
 [[params.plugins.css]]
 link = "css/bootstrap.min.css"
+# we needs Font Awesome Solid + Brands only
 [[params.plugins.css]]
-link = "css/font-awesome.min.css"
+link = "fontawesome/css/fontawesome.min.css"
+[[params.plugins.css]]
+link = "fontawesome/css/brands.min.css"
+[[params.plugins.css]]
+link = "fontawesome/css/solid.min.css"
 [[params.plugins.css]]
 link = "css/majorColorChange.css"
 [[params.plugins.css]]
@@ -179,7 +184,7 @@ link = "js/bootstrap.min.js"
 
 # text is markdown
 [[params.email]]
-icon = "fa fa-envelope-o fa-2x"
+icon = "fa-solid fa-envelope fa-xl"
 link = "mailto:support@linuxlines.com"
 label = "Support Email"
 text = "Email for support, questions, or advice."
@@ -187,30 +192,29 @@ text = "Email for support, questions, or advice."
 
 # Social Media
 # text is markdown
+# Icons search links:
+# Solid Free: https://fontawesome.com/search?o=r&m=free&s=solid
+# Brands Free: https://fontawesome.com/search?o=r&m=free&f=brands
 [[params.social]]
-icon = "fa fa-users fa-2x"
+icon = "fa-brands fa-discourse fa-xl"
 link = "https://forum.rockstor.com/"
 label = "Forum"
 text = "Our Friendly Forum. Announcements, community support, questions, etc... **All currently active developers are forum members.**"
 header = "true"
 [[params.social]]
-icon = "fa fa-github fa-2x"
+icon = "fa-brands fa-mastodon fa-xl"
+link = "https://mastodon.world/@TheRockstorProject"
+label = "@TheRockstorProject@mastodon.world"
+text = "Public anouncements, update advisories, etc."
+header = "true"
+[[params.social]]
+# icon = "fa-brands fa-square-github fa-xl"
+icon = "fa-brands fa-github-alt fa-xl"
 link = "https://github.com/rockstor"
 label = "GitHub"
 text = "Request a feature, report a bug, or fork us on GitHub."
 header = "true"
-[[params.social]]
-icon = "fa fa-twitter fa-2x"
-link = "https://twitter.com/rockstor4"
-label = "@rockstor4"
-text = "Current maintainer/distributor."
-header = "true"
-[[params.social]]
-icon = "fa fa-twitter fa-2x"
-link = "https://twitter.com/rockstorinc"
-label = "@rockstorinc"
-text = "Prior Maintainer - Rockstor, Inc. (Domain/Trademark admin)"
-header = "false"
+
 
 
 # Privacy settings for Hugo Buil-ins

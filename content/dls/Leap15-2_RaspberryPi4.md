@@ -2,7 +2,7 @@
 title: "Leap15 2_RaspberryPi4"
 date: 2021-10-19T17:20:09+01:00
 draft: false
-icon: "fa fa-linux"
+icon: "fa-brands fa-linux"
 download-base: "/"
 os: "Leap15.2"
 os_weight: 75

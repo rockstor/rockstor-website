@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-icon: "fa fa-linux"
+icon: "fa-brands fa-linux"
 doclink: "/docs/introduction/features.html"
 ---
 

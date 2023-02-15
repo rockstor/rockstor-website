@@ -2,7 +2,7 @@
 title: "File Sharing for all Platforms"
 date: 2021-10-15T15:28:32+01:00
 draft: false
-icon: "fa fa-linux"
+icon: "fa-solid fa-file-export"
 doclink: "/docs/interface/storage/file_sharing.html"
 ---
 

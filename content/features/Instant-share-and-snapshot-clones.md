@@ -2,7 +2,8 @@
 title: "Instant/Efficient Share and Snapshot Clones"
 date: 2021-10-15T15:33:45+01:00
 draft: false
-icon: "fa fa-files-o"
+icon: "fa-solid fa-clone"
+
 doclink: "/docs/interface/storage/shares-btrfs-subvolumes.html#cloning-a-share.html"
 ---
 
