@@ -17,4 +17,4 @@ installer_patch: ""
 
 **Note:** *Btrfs parity raid levels (5&6) are read-only by default.*
 
-Also Pi 400 compatible.
+***Also Pi 400 compatible***
