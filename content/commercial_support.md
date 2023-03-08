@@ -8,12 +8,13 @@ draft: false
 
 ---
 
-## *Incident based support currently unavailable*
+## Incident based support currently unavailable
 
-#### V4 "Built on openSUSE" now in stable updates. We await some 'shop' technicalities.
+#### We are arranging a new fiscal setup before reinstating this service. 
 
 #### Apologies for any inconvenience.
-##### Our [downloadable]({{< ref dls.md >}}) installers contains the first v4 stable release.
+
+##### Our [downloadable]({{< ref dls.md >}}) installers are Stable or Release Candidate status.
 
 ---
 
@@ -42,7 +43,7 @@ Example incidents:
  --- | Details
  --- | ---
 **Valid duration:** | 1 year from date of purchase.
-**Support offered via:** | Phone ([Signal](https://signal.org/)), email, and online collaboration tools including [Zulip](https://rockstor.zulipchat.com).
+**Support via:** | Email, [Zulip](https://rockstor.zulipchat.com), and [Mastodon](https://mastodon.world/@TheRockstorProject) Direct messages. 
 **Support Language:** | English, Portuguese to follow in time.
 **Response Time:** | 2 business days: cases prioritized by severity, we respond as quickly as possible.
 **Service Availability:** | 8 AM to 6 PM (Europe/Lisbon) during weekdays, excluding Portugal holidays.
