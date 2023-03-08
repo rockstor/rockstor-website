@@ -15,7 +15,5 @@ installer_patch: ""
 
 **Note:** *Btrfs parity raid levels (5&6) are read-only by default.*
 
-Awaiting Custom Ten64 drivers (may not be required any longer).
 Consider our [Installing the Stable Kernel Backport](https://rockstor.com/docs/howtos/stable_kernel_backport.html)
-to enable parity raid read-write access and for improved hardware compatibility.
-**NOTE: backports how-to needs modifying for 15.4**
+to enable parity raid read-write access.

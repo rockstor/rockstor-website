@@ -16,7 +16,3 @@ installer_patch: ""
 **NOTE: Leap 15.3 is end of life (EOL)**
 
 **Note:** *Btrfs parity raid levels (5&6) are read-only by default.*
-
-Awaiting Custom Ten64 drivers.
-Consider our [Installing the Stable Kernel Backport](https://rockstor.com/docs/howtos/stable_kernel_backport.html)
-for improved hardware compatibility.

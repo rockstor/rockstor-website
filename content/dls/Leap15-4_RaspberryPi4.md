@@ -17,6 +17,5 @@ installer_patch: ""
 
 Consider our [Installing the Stable Kernel Backport](https://rockstor.com/docs/howtos/stable_kernel_backport.html)
 to enable parity raid read-write access.
-**NOTE: backports how-to needs modifying for 15.4**
 
 ***Also Pi 400 compatible***
