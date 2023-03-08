@@ -39,17 +39,18 @@ Privacy, security, and freedom.
 
 {{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
 
-Repository | About | Contributors
-:---: | :---: | :---:
-[rockstor-core](https://github.com/rockstor/rockstor-core) | Main Repository | [35](https://github.com/rockstor/rockstor-core/graphs/contributors?type=a)
-[rockon-registry](https://github.com/rockstor/rockon-registry) | Rock-ons (Docker Plugins) | [60](https://github.com/rockstor/rockon-registry/graphs/contributors?type=a)
-[rockstor-docs](https://github.com/rockstor/rockstor-doc) | Main Docs | [23](https://github.com/rockstor/rockstor-doc/graphs/contributors?type=a)
-[rockstor-jslibs](https://github.com/rockstor/rockstor-jslibs) | JS lib bundle | [3](https://github.com/rockstor/rockstor-jslibs/graphs/contributors?type=a)
-[rockstor-iso](https://github.com/rockstor/rockstor-iso) | Old installer | [2](https://github.com/rockstor/rockstor-iso/graphs/contributors?type=a)
-[rockstor-installer](https://github.com/rockstor/rockstor-installer) | New installer | [8](https://github.com/rockstor/rockstor-installer/graphs/contributors?type=a)
-[rockstor-website](https://github.com/rockstor/rockstor-website) | This WebSite (Hugo) | [6](https://github.com/rockstor/rockstor-website/blob/master/AUTHORS)
+Repository |           About           | Contributors
+:---: |:-------------------------:| :---:
+[rockstor-core](https://github.com/rockstor/rockstor-core/tree/testing) |      Main Repository      | 49
+[rockon-registry](https://github.com/rockstor/rockon-registry) | Rock-ons (Docker Plugins) | 76
+[rockstor-docs](https://github.com/rockstor/rockstor-doc) |         Main Docs         | 30
+[rockstor-jslibs](https://github.com/rockstor/rockstor-jslibs) |       JS lib bundle       | 4
+[rockstor-rpmbuild](https://github.com/rockstor/rockstor-rpmbuild/tree/testing) | RPM build specifications  | 2
+[rockstor-installer](https://github.com/rockstor/rockstor-installer) | Kiwi-ng installer config  | 11
+[rockstor-website](https://github.com/rockstor/rockstor-website) |    This WebSite (Hugo)    | [6](https://github.com/rockstor/rockstor-website/blob/master/AUTHORS)
 
 {{< /bootstrap-table >}}
+*(Contibutors: git shortlog -sn --all | wc -l)*
 
 ## Contact Us
 ---
