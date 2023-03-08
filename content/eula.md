@@ -1,6 +1,6 @@
 ---
 title: "Rockstor End User Licence Agreement (EULA)"
-date: 2023-03-08T18:54:37+01:00
+date: 2023-03-08T12:00:00+01:00
 draft: false
 ---
 
