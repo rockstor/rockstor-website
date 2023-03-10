@@ -8,7 +8,7 @@ os: "Leap15.3"
 os_weight: 50
 machine: "RaspberryPi4"
 arch: "aarch64"
-rpm_version: "4.5.6"
+rpm_version: "4.5.8"
 rpm_release: "0"
 installer_patch: ""
 ---
@@ -18,3 +18,5 @@ installer_patch: ""
 **Note:** *Btrfs parity raid levels (5&6) are read-only by default.*
 
 ***Also Pi 400 compatible***
+
+[Fresh install Failure with Work-around](https://github.com/rockstor/rockstor-core/issues/2516)

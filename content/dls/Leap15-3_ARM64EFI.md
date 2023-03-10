@@ -8,7 +8,7 @@ os: "Leap15.3"
 os_weight: 50
 machine: "ARM64EFI"
 arch: "aarch64"
-rpm_version: "4.5.6"
+rpm_version: "4.5.8"
 rpm_release: "0"
 installer_patch: ""
 ---
@@ -16,3 +16,5 @@ installer_patch: ""
 **NOTE: Leap 15.3 is end of life (EOL)**
 
 **Note:** *Btrfs parity raid levels (5&6) are read-only by default.*
+
+[Fresh install Failure with Work-around](https://github.com/rockstor/rockstor-core/issues/2516)
