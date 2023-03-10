@@ -19,7 +19,7 @@ cascade:
 
 ***Rockstor 4.5.8-0 = Stable Release Candidate (RC5)***
 
-[Stable Release Candidate status](https://forum.rockstor.com/t/v4-5-testing-channel-changelog/8546/7) **---**
+[Stable Release Candidate status](https://forum.rockstor.com/t/v4-5-testing-channel-changelog/8546/10) **---**
 [GitHub Milestone](https://github.com/rockstor/rockstor-core/milestone/19)
 
 *Rockstor 4.1.0-0 = First "Built on openSUSE" Stable Release*
