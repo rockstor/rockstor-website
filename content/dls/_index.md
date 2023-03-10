@@ -17,7 +17,7 @@ cascade:
 
 ## "Built on openSUSE" installers are Stable or RC* status.
 
-*Rockstor 4.5.6-0 = Next Stable Release Candidate (RC3)*
+***Rockstor 4.5.8-0 = Stable Release Candidate (RC5)***
 
 [Stable Release Candidate status](https://forum.rockstor.com/t/v4-5-testing-channel-changelog/8546/7) **---**
 [GitHub Milestone](https://github.com/rockstor/rockstor-core/milestone/19)
