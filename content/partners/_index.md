@@ -11,5 +11,8 @@ cascade:
     render: false
 ---
 
-We welcome the opportunity to work with systems distributors and technical/hardware-partners.
-The whole is greater that the sum of it's parts; especially when the parts work together.
+We welcome co-operation with systems distributors & software/service/hardware partners.
+
+***"... the totality is not, as it were, a mere heap, but the whole is something beside the parts ..."*** Aristotle
+
+**"... the whole is other than the sum of the parts ..."** Kurt Koffka (1886-1941) Gestalt psychologist
