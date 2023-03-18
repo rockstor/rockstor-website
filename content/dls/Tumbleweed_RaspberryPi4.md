@@ -1,7 +1,7 @@
 ---
 title: "Tumbleweed_RaspberryPi4"
 date: 2023-03-18T16:46:10Z
-draft: true
+draft: false
 icon: "fa-brands fa-linux"
 download-base: "/"
 os: "Tumbleweed"

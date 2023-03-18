@@ -1,7 +1,7 @@
 ---
 title: "Tumbleweed_x86_64"
 date: 2023-03-18T16:45:05Z
-draft: true
+draft: false
 icon: "fa-brands fa-linux"
 download-base: "/"
 os: "Tumbleweed"

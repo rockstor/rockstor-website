@@ -1,7 +1,7 @@
 ---
 title: "Tumbleweed_ARM64EFI"
 date: 2023-03-18T16:45:48Z
-draft: true
+draft: false
 icon: "fa-brands fa-linux"
 download-base: "/"
 os: "Tumbleweed"
