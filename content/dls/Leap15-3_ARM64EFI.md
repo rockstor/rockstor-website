@@ -5,7 +5,7 @@ draft: false
 icon: "fa-brands fa-linux"
 download-base: "/"
 os: "Leap15.3"
-os_weight: 50
+os_weight: 52
 machine: "ARM64EFI"
 arch: "aarch64"
 rpm_version: "4.5.8"
