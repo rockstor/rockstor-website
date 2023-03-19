@@ -5,7 +5,7 @@ draft: false
 icon: "fa-brands fa-linux"
 download-base: "/"
 os: "Leap15.4"
-os_weight: 40
+os_weight: 41
 machine: "RaspberryPi4"
 arch: "aarch64"
 rpm_version: "4.5.8"
