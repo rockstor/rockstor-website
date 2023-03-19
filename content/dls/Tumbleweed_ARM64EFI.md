@@ -15,4 +15,4 @@ installer_patch: ""
 
 ***Development/Advanced-user/Rescue use only***
 
-[initial zypper dup requried](https://github.com/rockstor/rockstor-website/issues/71)
+[initial zypper dup required](https://github.com/rockstor/rockstor-website/issues/71)
