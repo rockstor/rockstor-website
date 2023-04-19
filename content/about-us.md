@@ -10,7 +10,7 @@ The Rockstor Project, an open source community endeavour, is fostered by 2 discr
 
 *Rockstor, Inc. (US) owned by project founder Suman Chakravartula:- Domain and [trademarks]({{< ref legal.md >}}) owner/admin.*
 
-*Philip Paul Guyton:- Current maintainer, project lead, packager, distributor, and subscription shop owner/admin.*
+*Philip Paul Guyton (Portugal):- Current maintainer, project lead, packager, distributor, and subscription shop owner/admin.*
 
 Our website uses the "rockstor" domain, while support uses the "linuxlines" domain.
 We hope to further rationalise these 'mixed' domains as we work towards sustainable Open Source development.
