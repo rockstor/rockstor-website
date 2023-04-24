@@ -15,8 +15,8 @@ We are supported by our members/subscribers/contributors and fiscally hosted by 
 
 *Current Maintainer: Philip Paul Guyton - Project lead, core developer, & release manager.*
 
-Our website uses the "rockstor" domain, while support uses the "linuxlines" domain.
-We hope to further rationalise these 'mixed' domains as we work towards sustainable Open Source development.
+Our websites & support email use the "rockstor" domain. But forum notifications uses the "linuxlines" domain.
+This mixed domain use should be resolved soon.
 
 ## Our Endeavour
 ---
@@ -53,7 +53,7 @@ Repository |           About           | Contributors
 [rockstor-website](https://github.com/rockstor/rockstor-website) |    This WebSite (Hugo)    | [6](https://github.com/rockstor/rockstor-website/blob/master/AUTHORS)
 
 {{< /bootstrap-table >}}
-*(Contibutors: git shortlog -sn --all | wc -l)*
+*(Contributors: git shortlog -sn --all | wc -l)*
 
 ## Contact Us
 ---

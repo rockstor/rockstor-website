@@ -185,7 +185,7 @@ link = "js/bootstrap.min.js"
 # text is markdown
 [[params.email]]
 icon = "fa-solid fa-envelope fa-xl"
-link = "mailto:support@linuxlines.com"
+link = "mailto:support@rockstor.com"
 label = "Support Email"
 text = "Email for support, questions, or advice."
 
