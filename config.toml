@@ -132,8 +132,8 @@ pageRef = "about-us.md"
 weight = 4
 
 [[menu.main]]
-name = "Shop"
-url = "https://shop.rockstor.com/"
+name = "Open Collective"
+url = "https://opencollective.com/the-rockstor-project"
 weight = 5
 
 [[menu.main]]

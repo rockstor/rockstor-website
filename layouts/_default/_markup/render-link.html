@@ -1,0 +1,5 @@
+<!-- https://gohugo.io/templates/render-hooks/  -->
+<!-- affects md content links only -->
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"
+rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+
