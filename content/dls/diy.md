@@ -18,7 +18,7 @@ This in-turn uses the excellent [Kiwi-ng](https://github.com/OSInside/kiwi) open
 See [Kiwi-ng's docs](https://osinside.github.io/kiwi/) for the possibilities.
 
 You can also create your own custom profile tailored to your specific needs.
-Please see our [Custom Solutions]({{< ref customizable-btrfs-nas-storage-platform.md >}}) for context.
+Please see our [Custom Solutions]({{< relref customizable-btrfs-nas-storage-platform.md >}}) for context.
 
 All pending upstream updates, at time of installer build/re-build, are pre-applied to the resulting image.
 

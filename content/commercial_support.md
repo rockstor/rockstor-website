@@ -14,7 +14,7 @@ draft: false
 
 #### Apologies for any inconvenience.
 
-##### Our [downloadable]({{< ref dls.md >}}) installers are Stable or Release Candidate status.
+##### Our [downloadable]({{< relref dls.md >}}) installers are Stable or Release Candidate status.
 
 ---
 

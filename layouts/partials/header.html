@@ -19,14 +19,15 @@
                aria-expanded="false"> {{ .Name }} </a>
             <ul class="dropdown-menu">
               {{ range .Children }}
-              <li><a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+              <li><a class="dropdown-item" href="{{ .URL | absLangURL }}" {{ if strings.HasPrefix .URL "http" }} target="_blank"
+                rel="noopener"{{ end }}>{{ .Name }}</a></li>
               {{ end }}
             </ul>
           </li>
 
           {{ else }}
           <li class="nav-item">
-            <a class="nav-link text-uppercase text-dark" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            <a class="nav-link text-uppercase text-dark" href="{{ .URL | absLangURL }}" {{ if eq .Name "Open Collective"}} target="_blank" rel="noopener"{{end}} >{{ .Name }}</a>
           </li>
           {{ end }}
 
