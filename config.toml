@@ -132,13 +132,13 @@ pageRef = "about-us.md"
 weight = 4
 
 [[menu.main]]
-name = "Open Collective"
-url = "https://opencollective.com/the-rockstor-project"
+name = "Downloads"
+pageRef = "dls.md"
 weight = 5
 
 [[menu.main]]
-name = "Downloads"
-pageRef = "dls.md"
+name = "Open Collective"
+url = "https://opencollective.com/the-rockstor-project"
 weight = 6
 
 # N.B. we have a Download button as our last header Menu item.
