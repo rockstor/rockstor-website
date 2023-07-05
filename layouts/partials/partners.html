@@ -5,9 +5,14 @@
     {{ .Content }}
     <ul class="list-inline">
       {{ range .Pages }}
-      <li>
-        <a href="{{.Params.link}}" target="_blank"> <img class="img-responsive col-xs-12" src="{{ .Params.icon}}"> </a>
-      </li>
+        {{ $path := .Params.icon }}
+        {{ $image := resources.Get $path }}
+        {{/* https://gohugo.io/content-management/image-processing/ */}}
+        {{ $image := $image.Fit "300x150 png Lanczos" }}
+        <li>
+          <a href="{{ .Params.link }}" target="_blank"> <img src="{{ $image.Permalink }}"> </a>
+        </li>
+        <li></li>
       {{ end }}
     </ul>
   </div>
