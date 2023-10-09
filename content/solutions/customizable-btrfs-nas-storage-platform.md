@@ -46,7 +46,7 @@ Watch [this space](https://github.com/rockstor/rockstor-core/issues/2254) on tha
 
 {{< ps phrase="Custom Installer" >}}
 ## Problem
-I/We need more than what Rocksor is; an appliance approach is fine for the majority of cases but not for us.
+I/We need more than what Rockstor is; an appliance approach is fine for the majority of cases but not for us.
 
 ## Solution
 If you can do it on an up-to-date openSUSE Leap you can do it on Rockstor.
