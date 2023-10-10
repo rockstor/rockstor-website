@@ -6,7 +6,8 @@ date: 2021-10-15T11:02:11+01:00
 draft: false
 ---
 
-Rockstor is a Linux and BTRFS powered storage operating system with advanced NAS and Cloud Storage features.
+Rockstor is a Linux and BTRFS powered storage operating system with advanced NAS and Cloud Storage features, supporting
+multiple architectures: AMD64 & ARM64EFI.
 <!--more-->
 Compatible with commodity hardware - managed with ease via browser.
 For Small to Mid-size organizations looking for **Anti-Bitrot** flexible storage.
