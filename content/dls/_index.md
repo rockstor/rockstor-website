@@ -17,14 +17,18 @@ cascade:
 
 ## "Built on openSUSE" installers are Stable or RC* status.
 
-***Rockstor 4.5.8-0 = Stable Release Candidate (RC5)***
+***Rockstor 5.0.6-0 = Stable Release Candidate (RC1)***
 
-[Stable Release Candidate status](https://forum.rockstor.com/t/v4-5-testing-channel-changelog/8546/10) **---**
-[GitHub Milestone](https://github.com/rockstor/rockstor-core/milestone/19)
+[Stable Release Candidate status](https://forum.rockstor.com/t/v5-0-testing-channel-changelog/8898/12) **---**
+[GitHub Milestone](https://github.com/rockstor/rockstor-core/milestone/27)
 
-*Rockstor 4.1.0-0 = First "Built on openSUSE" Stable Release*
+*4.1.0-0 was our first "Built on openSUSE" Stable Release*
 
-*Rockstor 4 is now also Pi4 & ARM64 [Embedded Boot](https://github.com/ARM-software/ebbr) / [Server Boot](https://github.com/ARM-software/sbsa-acs) compatible.*
+*4.6.0-0 was our "First Stable Poetry build" - with a 4.6.1-0 hot-patch*
+
+---
+
+*We are now Pi4 & ARM64 [Embedded Boot](https://github.com/ARM-software/ebbr) / [Server Boot](https://github.com/ARM-software/sbsa-acs) compatible.*
 
 See our [Rockstor’s “Built on openSUSE” installer](/docs/installation/installer-howto.html) and 
 [Making a Rockstor USB install disk](/docs/installation/quickstart.html#making-a-rockstor-usb-install-disk)
