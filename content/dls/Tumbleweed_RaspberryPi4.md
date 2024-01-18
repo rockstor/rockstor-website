@@ -8,7 +8,7 @@ os: "Tumbleweed"
 os_weight: 41
 machine: "RaspberryPi4"
 arch: "aarch64"
-rpm_version: "4.5.8"
+rpm_version: "5.0.9"
 rpm_release: "0"
 installer_patch: ""
 ---
