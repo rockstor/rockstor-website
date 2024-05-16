@@ -55,7 +55,7 @@ Question | Answer
 --- | ---
 **How much do you charge for Rockstor support?** | Support is charged on a per incident basis, expected relaunch price €240 + tax (if applicable) per incident.
 **How is an incident defined?** | An incident is defined as a question relating to a specific, discrete issue, and may involve several interactions with support prior to that issue's resolution.
-**What is not an incident?** | If your issue is caused by a Rockstor package software bug then there is no charge. In this case we prioritising the related bugfix.
+**What is not an incident?** | If your issue is caused by a Rockstor package software bug then there is no charge. In this case we will be prioritising the related bugfix.
 **How do I contact you for paid support?** | Email support with your Open Collective 'Incident-based Support subscription' membership tier order number. 
 **Can I get a refund on unused incidents?** | We do not provide refunds on 'Incident-based Support subscriptions'.
 **How quickly do you respond to my paid support request?** | 'Incident-based Support' requests are regularly monitored and we strive to respond as quickly as possible. Realistically, first response may be within 4-12 hours, depending on time zone.
