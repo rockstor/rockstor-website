@@ -183,6 +183,7 @@ link = "js/bootstrap.min.js"
 
 
 # text is markdown
+# N.B. hard-coded email urls found in tables on paid_support page
 [[params.email]]
 icon = "fa-solid fa-envelope fa-xl"
 link = "mailto:support@rockstor.com"

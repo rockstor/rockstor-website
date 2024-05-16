@@ -9,39 +9,38 @@ aliases:
 {{< center-this >}}
 
 ---
-#### **Service currently unavailable: awaiting an 'Incident-based Support subscription' membership tier in our [Open Collective](https://opencollective.com/the-rockstor-project) non-profit.**
+#### **Service currently unavailable: we plan to add an 'Incident-based Support subscription' membership tier in our [Open Collective](https://opencollective.com/the-rockstor-project) non-profit.**
 ---
 
 {{< /center-this >}}
 
 ## Incident-based Support subscription
 
-A Rockstor 'Incident-based Support subscription' is a *"Support included"* variant of our 'Stable Updates subscription' membership tier.
+An **'Incident-based Support subscription'** is a ***"Support included"*** variant of our **'Stable Updates subscription'**.
 
-Primarily intended for installs´ subscribed-to/running our [Stable Channel](https://rockstor.com/docs/update-channels/update_channels.html#stable-channel) releases 'Built on' non EOL openSUSE Leap.
+Primarily intended for installs´ running our [Stable Channel](https://rockstor.com/docs/update-channels/update_channels.html#stable-channel) releases 'Built on' non EOL openSUSE Leap.
 
 Release Candidate (RC) [Testing Channel](https://rockstor.com/docs/update-channels/update_channels.html#testing-channel) installs may also be considered.
 
-Our [downloadable]({{< relref dls.md >}}) installers are Stable or Release Candidate status.
-
-Targeted response time 48 hours, see below for details.
+Our [downloadable]({{< relref dls.md >}}) installers use Stable or RC status 'rockstor' packages.
 
 A complement to your existing IT resources. **We are here to help**
 
 {{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
 
- --- | Details
- --- | ---
-**Valid duration:** | 1 year from date of purchase.
-**Support via:** | Support Email, [Zulip](https://rockstor.zulipchat.com), [Mastodon](https://mastodon.world/@TheRockstorProject) Direct messages, planned forum group/PM. 
-**Support Language:** | English, Portuguese to follow in time.
-**Response Time:** | 2 business days: cases prioritized by severity, we respond as quickly as possible.
-**Service Availability:** | 8 AM to 6 PM (Europe/Lisbon) during weekdays, excluding Portugal holidays.
+--- | Details
+--- | ---
+**Quantity:** | One incident per year per 'Incident-based Support subscription'/order.
+**Cost:** | €240 + tax (if applicable) per subscription.
+**Via:** | [Support Email](mailto:support@rockstor.com), [Zulip](https://rockstor.zulipchat.com), [Mastodon](https://mastodon.world/@TheRockstorProject) (PM/Direct Message only), or PM our 'paid_support' forum group: ‘Incident-based Support subscription’ membership order number & matching email required in all cases. 
+**Language:** | English, Portuguese to follow in time.
+**Response Time:** | Within 2 business days.
+**Availability:** | During weekdays, excluding Portugal holidays.
 
 {{< /bootstrap-table >}}
 
 
-Before purchasing an 'Incident-based Support subscription', consider taking full advantage of our extensive [documentation](/docs/) and our friendly [community forum](https://forum.rockstor.com/).
+Also consider our extensive [documentation](/docs/) and our friendly [community forum](https://forum.rockstor.com/).
 
 {{< button label="Documentation" link="/docs/" >}}
 {{< button label="Community Forum" link="https://forum.rockstor.com/" >}}
@@ -53,12 +52,12 @@ Before purchasing an 'Incident-based Support subscription', consider taking full
 
 Question | Answer
 --- | ---
-**How much do you charge for Rockstor support?** | Support is charged on a per incident basis, expected relaunch price €240 + tax (if applicable) per incident.
-**How is an incident defined?** | An incident is defined as a question relating to a specific, discrete issue, and may involve several interactions with support prior to that issue's resolution.
-**What is not an incident?** | If your issue is caused by a Rockstor package software bug then there is no charge. In this case we will be prioritising the related bugfix.
-**How do I contact you for paid support?** | Email support with your Open Collective 'Incident-based Support subscription' membership tier order number. 
-**Can I get a refund on unused incidents?** | We do not provide refunds on 'Incident-based Support subscriptions'.
-**How quickly do you respond to my paid support request?** | 'Incident-based Support' requests are regularly monitored and we strive to respond as quickly as possible. Realistically, first response may be within 4-12 hours, depending on time zone.
+**Incident definition?** | An incident is a question relating to a specific, discrete issue, and may involve several interactions with the support service to achieve resolution.
+**Incident waiver?** | If your issue uncovers, or confirms, a 'rockstor' package bug, your Support Incident is considered unused. In this case we will be prioritising the related bugfix.
+**Refund policy?** | The latest payment of either an 'Incident-based Support subscription' or a 'Stable Updates subscription', can be refunded for the EU mandated 14 day cooling-off period.
+**I already have a Stable Updates subscription?** | [Support Email](mailto:support@rockstor.com) can transfer an existing 'Stable Updates subscription' Computer/activation-code, to a purchased 'Incident-based Support subscription'. You can then cancel your "Stable Updates subscription" via Open Collective.
+**Can I revert to a 'Stable Updates subscription?** | Yes, the procedure is the reverse of the last answer.
+**What if I need additional support incidents?** | Each 'Incident-based Support subscription' covers one incident & 1 year's Stable Updates subscription. You can ignore automated Appliance ID request emails if you only need the support incident.
 
 {{< /bootstrap-table >}}
 
