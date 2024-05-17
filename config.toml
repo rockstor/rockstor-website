@@ -92,8 +92,8 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Resources"
-  name = "Commercial Support"
-  PageRef = "commercial_support.md"
+  name = "Paid Support"
+  PageRef = "paid_support.md"
   weight = 6
 
 [[menu.main]]
@@ -155,7 +155,7 @@ downloadsserver = "https://rockstor.com/"
 logo = "images/rockstorlogo-font2.png"
 author = "See: AUTHORS file."
 # Website copyright notice (markdownify)
-copyright = "Copyright &copy; 2023 Rockstor inc."
+copyright = "Copyright &copy; 2024 The Rockstor Project"
 # use lowercase version of frontmatter os
 downloads_os_order = ["leap15.4", "tumbleweed", "leap15.3", "diy", "rpm", "centos7.1511"]
 
@@ -183,6 +183,7 @@ link = "js/bootstrap.min.js"
 
 
 # text is markdown
+# N.B. hard-coded email urls found in tables on paid_support page
 [[params.email]]
 icon = "fa-solid fa-envelope fa-xl"
 link = "mailto:support@rockstor.com"
