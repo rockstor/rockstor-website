@@ -12,11 +12,9 @@ rpm_version: "5.0.9"
 rpm_release: "0"
 installer_patch: ""
 ---
-**WARNING: Build using pre-release Leap 15.6** *- will require 'zypper dup' post 15.6 release -*
 
-**Note:** *Btrfs parity raid levels (5&6) are read-only by default.*
+--- **REBOOT BUG:** [Pi4 installer fails on reboot](https://github.com/rockstor/rockstor-core/issues/2843) ---
 
-Consider our [Installing the Stable Kernel Backport](https://rockstor.com/docs/howtos/stable_kernel_backport.html)
-to enable parity raid read-write access.
+**WARNING: Built using pre-release Leap 15.6** *- will require 'zypper dup' post 15.6 release -*
 
-***Also Pi 400 compatible***
+*Also Pi 400 compatible*

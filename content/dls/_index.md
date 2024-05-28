@@ -37,7 +37,7 @@ latest/last 'rockstor' package version published, per channel, per Leap version
 
 ---
 
-*We are now Pi4 & ARM64 [Embedded Boot](https://github.com/ARM-software/ebbr) / [Server Boot](https://github.com/ARM-software/sbsa-acs) compatible.*
+*We are Pi4 & ARM64 [Embedded Boot](https://github.com/ARM-software/ebbr) / [Server Boot](https://github.com/ARM-software/sbsa-acs) compatible.*
 
 See our [Rockstor’s “Built on openSUSE” installer](/docs/installation/installer-howto.html) and 
 [Making a Rockstor USB install disk](/docs/installation/quickstart.html#making-a-rockstor-usb-install-disk)

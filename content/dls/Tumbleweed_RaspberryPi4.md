@@ -13,6 +13,8 @@ rpm_release: "0"
 installer_patch: ""
 ---
 
+--- **REBOOT BUG:** [Pi4 installer fails on reboot](https://github.com/rockstor/rockstor-core/issues/2843) ---
+
 ***Development/Advanced-user/Rescue use only***
 
-[initial zypper dup required](https://github.com/rockstor/rockstor-website/issues/71)
+*Also Pi 400 compatible and possibly Pi5 with future updates*

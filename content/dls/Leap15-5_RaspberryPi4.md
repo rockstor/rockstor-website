@@ -13,9 +13,11 @@ rpm_release: "0"
 installer_patch: ""
 ---
 
+--- **REBOOT BUG:** [Pi4 installer fails on reboot](https://github.com/rockstor/rockstor-core/issues/2843) ---
+
 **Note:** *Btrfs parity raid levels (5&6) are read-only by default.*
 
 Consider our [Installing the Stable Kernel Backport](https://rockstor.com/docs/howtos/stable_kernel_backport.html)
 to enable parity raid read-write access.
 
-***Also Pi 400 compatible***
+*Also Pi 400 compatible*
