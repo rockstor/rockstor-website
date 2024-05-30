@@ -1,10 +1,10 @@
 ---
-title: "Tumbleweed_RaspberryPi4"
-date: 2023-03-18T16:46:10Z
+title: "Leap15 6_RaspberryPi4"
+date: 2023-01-26T17:20:03+01:00
 draft: false
 icon: "fa-brands fa-linux"
 download-base: "/"
-os: "Tumbleweed"
+os: "Leap15.6"
 os_weight: 41
 machine: "RaspberryPi4"
 arch: "aarch64"
@@ -15,6 +15,6 @@ installer_patch: ""
 
 --- **REBOOT BUG:** [Pi4 installer fails on reboot](https://github.com/rockstor/rockstor-core/issues/2843) ---
 
-***Development/Advanced-user/Rescue use only***
+**WARNING: Built using pre-release Leap 15.6** *- will require 'zypper dup' post 15.6 release -*
 
-*Also Pi 400 compatible and possibly Pi5 with future updates*
+*Also Pi 400 compatible*

@@ -28,7 +28,7 @@
 
       {{ else if strings.HasSuffix $dlfilename "xz" }}
 
-      {{ index $installermap "xz" }} {{ $dlfilename }} | dd bs=4M of=/dev/sdX iflag=fullblock conv=notrunc status=progress
+      {{ index $installermap "xz" }} {{ $dlfilename }} | sudo dd bs=4M of=/dev/sdX iflag=fullblock conv=notrunc status=progress
 
       {{ end }} </strong>
 

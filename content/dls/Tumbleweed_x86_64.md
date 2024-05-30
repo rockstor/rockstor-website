@@ -8,11 +8,9 @@ os: "Tumbleweed"
 os_weight: 40
 machine: "generic"
 arch: "x86_64"
-rpm_version: "4.5.8"
+rpm_version: "5.0.9"
 rpm_release: "0"
 installer_patch: ""
 ---
 
 ***Development/Advanced-user/Rescue use only***
-
-[initial zypper dup required](https://github.com/rockstor/rockstor-website/issues/71)
