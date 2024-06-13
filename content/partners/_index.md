@@ -16,3 +16,5 @@ We welcome co-operation with systems distributors & software/service/hardware pa
 ***"... the totality is not, as it were, a mere heap, but the whole is something beside the parts ..."*** Aristotle
 
 **"... the whole is other than the sum of the parts ..."** Kurt Koffka (1886-1941) Gestalt psychologist
+
+*-- Mouse over icon for attribution --*

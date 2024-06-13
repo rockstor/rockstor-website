@@ -10,7 +10,7 @@
         {{/* https://gohugo.io/content-management/image-processing/ */}}
         {{ $image := $image.Fit "300x150 png Lanczos" }}
         <li>
-          <a href="{{ .Params.link }}" target="_blank"> <img src="{{ $image.Permalink }}"> </a>
+          <a href="{{ .Params.link }}" target="_blank"> <img src="{{ $image.Permalink }}" title="{{ .Params.attribution }}"> </a>
         </li>
         <li></li>
       {{ end }}
