@@ -30,8 +30,8 @@ latest/last 'rockstor' package version published, per channel, per Leap version
 {{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
 | ---     | 15.1    | 15.2    | 15.3    | 15.4     | 15.5     | 15.6     |
 |---------|---------|---------|---------|----------|----------|----------|
-| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.13-0 | 5.0.13-0 | 5.0.13-0 |
-| Stable  | ---     | 4.1.0-0 | 4.1.0-0 | 4.6.1-0  | 4.6.1-0  | ---      |
+| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.14-0 | 5.0.14-0 | 5.0.14-0 |
+| Stable  | ---     | 4.1.0-0 | 4.1.0-0 | 4.6.1-0  | 4.6.1-0  | Pending  |
 {{< /bootstrap-table >}}
 
 
