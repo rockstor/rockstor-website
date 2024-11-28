@@ -17,7 +17,11 @@ See: https://gohugo.io/about/hugo-and-gdpr/
 
 ## Debug build
 The minimum version of Hugo required is indicated in the top level config file "config.toml".
-Be sure to increase this value if a newer Hugo feature is used.
+The maximum version is 0.122.0 as 0.123.0 introduced breaking changes for the downloads page.
+Help with removing this upper version limit would be appreciated.
+Be sure to update the minimum version if a newer Hugo feature is used,
+or the maximum version tested to successfully render the downloads page.
+
 See the [Install Hugo](https://gohugo.io/getting-started/installing/) doc section for how to run Hugo locally.
 You can then build and test your changes locally by running (in the top directory of this repo):
 
