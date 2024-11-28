@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2023-01-26T18:54:52+01:00
+date: 2024-11-27T18:54:52+01:00
 draft: false
 aliases:
     - /download.html
@@ -14,23 +14,23 @@ cascade:
 ---
 ### Installers include first Stable or RC* status 'rockstor' packages.
 
-***Rockstor 5.0.9-0 = Stable Release Candidate (RC4)***
+***Rockstor 5.0.15-0 = Stable Release Candidate (RC10)***
 
-[Stable Release Candidate status](https://forum.rockstor.com/t/v5-0-testing-channel-changelog/8898/18) **---**
+[Stable Release Candidate status](https://forum.rockstor.com/t/v5-0-testing-channel-changelog/8898/29) **---**
 [GitHub Milestone](https://github.com/rockstor/rockstor-core/milestone/27)
 
 *4.1.0-0 was our first "Built on openSUSE" Stable Release*
 
 *4.6.0-0 was our "First Stable Poetry build" - with a 4.6.1-0 hot-patch*
 
-*5.1.X-X (pending) "Major Python/Django update"*
+*5.1.X-X (Pending) is a "Major Python/Django update"*
 
-latest/last 'rockstor' package version published, per channel, per Leap version
+Latest/last 'rockstor' package version published, per channel, per Leap version
 
 {{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
 | ---     | 15.1    | 15.2    | 15.3    | 15.4     | 15.5     | 15.6     |
 |---------|---------|---------|---------|----------|----------|----------|
-| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.14-0 | 5.0.14-0 | 5.0.14-0 |
+| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.15-0 | 5.0.15-0 | 5.0.15-0 |
 | Stable  | ---     | 4.1.0-0 | 4.1.0-0 | 4.6.1-0  | 4.6.1-0  | Pending  |
 {{< /bootstrap-table >}}
 
@@ -43,6 +43,7 @@ See our [Rockstor’s “Built on openSUSE” installer](/docs/installation/inst
 [Making a Rockstor USB install disk](/docs/installation/quickstart.html#making-a-rockstor-usb-install-disk)
 docs section.
 
-See also: [Migrating from Legacy V3 to V4 “Built on openSUSE”](/docs/howtos/v3_to_v4.html). 
+See also: [Migrating Legacy v3 (CentOS) to “Built on openSUSE”](/docs/howtos/centos_to_opensuse.html)
+and our complete set of: [Distribution update from 15.* to 15.* how-tos](https://rockstor.com/docs/howtos.html).
 
 **Preferred options appear first in the following list.**
