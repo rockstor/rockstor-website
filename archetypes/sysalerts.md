@@ -6,4 +6,5 @@ draft: false
 expirydate: {{ now.AddDate 0 0 1 }}
 ---
 {{< param title >}}
-under maintenance until:
+under maintenance.
+Intermittent service expected until:
