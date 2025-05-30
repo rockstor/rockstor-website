@@ -23,15 +23,18 @@ cascade:
 
 *4.6.0-0 was our "First Stable Poetry build" - with a 4.6.1-0 hot-patch*
 
-*5.1.X-X (Pending) is a "Major Python/Django update"*
+*5.1.0-0 is a "Major Python/Django update"*
 
-Latest/last 'rockstor' package version published, per channel, per Leap version
+*5.6.0-0 is our "Backend prep for front-end modernisation"*
+
+Latest/last 'rockstor' package version published, per channel, per OS version.
+TW/SR = Tumbleweed-Slowroll (Development/Advanced-user/Rescue use only).
 
 {{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
-| ---     | 15.1    | 15.2    | 15.3    | 15.4     | 15.5     | 15.6     |
-|---------|---------|---------|---------|----------|----------|----------|
-| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.15-0 | 5.0.15-0 | 5.0.15-0 |
-| Stable  | ---     | 4.1.0-0 | 4.1.0-0 | 4.6.1-0  | 4.6.1-0  | Pending  |
+| ---     | 15.1 EOL| 15.2 EOL| 15.3 EOL| 15.4 EOL | 15.5 EOL | 15.6    | TW/SR   |
+|---------|---------|---------|---------|----------|----------|---------|---------|
+| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.15-0 | 5.0.15-0 | 5.1.0-0 | 5.1.0-0 |
+| Stable  | ---     | 4.1.0-0 | 4.1.0-0 | 4.6.1-0  | 4.6.1-0  | Pending | 4.6.1-0 |
 {{< /bootstrap-table >}}
 
 
