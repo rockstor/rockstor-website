@@ -14,7 +14,7 @@ cascade:
 ---
 ### Installers include first Stable or RC* status 'rockstor' packages.
 
-***Rockstor 5.0.15-0 = Stable Release Candidate (RC10)***
+***Rockstor 5.1.0-0 = Final Stable Release Candidate***
 
 [Stable Release Candidate status](https://forum.rockstor.com/t/v5-0-testing-channel-changelog/8898/29) **---**
 [GitHub Milestone](https://github.com/rockstor/rockstor-core/milestone/27)
