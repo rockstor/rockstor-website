@@ -157,7 +157,7 @@ author = "See: AUTHORS file."
 # Website copyright notice (markdownify)
 copyright = "Copyright &copy; 2025 The Rockstor Project"
 # use lowercase version of frontmatter os
-downloads_os_order = ["leap15.6", "tumbleweed", "slowroll", "diy", "rpm", "centos7.1511"]
+downloads_os_order = ["leap15.6", "tumbleweed", "slowroll", "diy", "rpm"]
 
 # CSS Plugins
 [[params.plugins.css]]
