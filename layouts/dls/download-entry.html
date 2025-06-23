@@ -10,7 +10,10 @@
       {{ if $dlfilename }}
 
       {{ if strings.HasSuffix $dlfilename "qcow2" }}<p/>
-      <p/>Also pre-sized (16GB) qcow2 format:<br/> {{end}}
+        <p/>Also pre-sized (16GB) qcow2 format:<br/>
+      {{ else }}
+        Built: {{ $.Date | time.Format ":date_medium" }}<p/>
+      {{ end }}
 
       {{ range $index,$extension := (slice "" ".sha256") }}
 
