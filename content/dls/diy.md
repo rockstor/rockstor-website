@@ -13,7 +13,7 @@ rpm_release: "0"
 installer_patch: ""
 ---
 
-All our "Built on openSUSE" installers are made using the [Rockstor 4 Installer Recipe](https://github.com/rockstor/rockstor-installer).
+All our "Built on openSUSE" installers are made using the [Rockstor Installer Recipe](https://github.com/rockstor/rockstor-installer).
 This in-turn uses the excellent [Kiwi-ng](https://github.com/OSInside/kiwi) open source image and appliance builder from openSUSE.
 [Kiwi-ng's docs](https://osinside.github.io/kiwi/).
 
