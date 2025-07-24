@@ -48,7 +48,7 @@ there is also a `sysalert` archetype.
 
 Intended to indicate ongoing maintenance associated with expected service outages. 
 These alerts appear, via their own partial layout, as an index page header.
-The default expiration period, set via the archetype, is creation data-time plus 24 hours.
+The default expiration period, set via the archetype, is creation data-time plus 48 hours.
 
 Example:
 

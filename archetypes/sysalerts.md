@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 #add years months days
-expirydate: {{ now.AddDate 0 0 1 }}
+expirydate: {{ now.AddDate 0 0 2 }}
 ---
 {{< param title >}}
 under maintenance.
