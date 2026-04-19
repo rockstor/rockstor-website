@@ -31,7 +31,7 @@ Our [downloadable]({{< relref dls.md >}}) installers use Stable or RC status 'ro
 
 Every provider must be fiscally independent of [The Rockstor Project](https://opencollective.com/the-rockstor-project),
 and no associated liability is inferred, or should be assumed, by this endeavour on our part.
-We simply wish to guild folks via a central index, positively or negatively, depending on community feedback either way.
+We simply wish to guide folks via a central index, positively or negatively, depending on community feedback.
 
 This arrangement could open our project to Scalping, Scamming, Grifting, or Denial Of Service (DOS) type attacks.
 I.e. abuse of our [Community Forum](https://forum.rockstor.com/) or support email.
