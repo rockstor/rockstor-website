@@ -1,64 +1,61 @@
 ---
 title: "Paid Support"
-date: 2021-10-08T18:55:30+01:00
+date: 2026-04-19T00:00:00+01:00
 draft: false
 aliases:
 - /commercial_support.html
 ---
-### **Professional help, directly from Rockstor developers & contributors**
+### **Professional help index**
 {{< center-this >}}
 
 ---
-#### **Service currently unavailable: we plan to add an 'Incident-based Support subscription' membership tier in our [Open Collective](https://opencollective.com/the-rockstor-project) non-profit.**
+Our long proposed **'Incident-based Support subscription'** as a ***"Support included"*** variant of our legacy **'Stable Updates subscription',** has now been shelved.
+
+Evolving clarifications of our fiscal host [Open Source Europe (OSE)](https://opencollective.com/europe) have moved to a: 'no deliverables subject to a contribution' stance.
+
+Ergo; we cannot, nor can any other OSE hosted project, associate a contribution to a "... defined benefit, access, or deliverable ..."!
+
+This page now intends to provide a community curated list of fiscally independent **Paid support** providers.
+
 ---
 
 {{< /center-this >}}
 
-## Incident-based Support subscription
+## Stable Channel Support
 
-An **'Incident-based Support subscription'** is a ***"Support included"*** variant of our **'Stable Updates subscription'**.
+For installs´ running our [Stable Channel](https://rockstor.com/docs/update-channels/update_channels.html#stable-channel) releases 'Built on' non EOL openSUSE Leap / Slowroll / Tumbleweed.
 
-Primarily intended for installs´ running our [Stable Channel](https://rockstor.com/docs/update-channels/update_channels.html#stable-channel) releases 'Built on' non EOL openSUSE Leap.
-
-Release Candidate (RC) [Testing Channel](https://rockstor.com/docs/update-channels/update_channels.html#testing-channel) installs may also be considered.
+Release Candidate (RC) [Testing Channel](https://rockstor.com/docs/update-channels/update_channels.html#testing-channel) installs may also be considered at the discretion of the provider.
 
 Our [downloadable]({{< relref dls.md >}}) installers use Stable or RC status 'rockstor' packages.
 
-A complement to your existing IT resources. **We are here to help**
+Every provider must be fiscally independent of [The Rockstor Project](https://opencollective.com/the-rockstor-project),
+and no associated liability is inferred, or should be assumed, by this endeavour on our part.
+We simply wish to guild folks via a central index, positively or negatively, depending on community feedback either way.
 
-{{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
+This arrangement could open our project to Scalping, Scamming, Grifting, or Denial Of Service (DOS) type attacks.
+I.e. abuse of our [Community Forum](https://forum.rockstor.com/) or support email.
+Bad actors could drain all available community resources, human mainly, otherwise offered for free in good faith.
+Creating an unsustainable, profiteering type arrangement that would ultimately end our project as a whole through greed.
 
---- | Details
---- | ---
-**Quantity:** | One incident per year per 'Incident-based Support subscription'/order.
-**Cost:** | €240 + tax (if applicable) per subscription.
-**Via:** | [Support Email](mailto:support@rockstor.com), [Zulip](https://rockstor.zulipchat.com), [Mastodon](https://mastodon.world/@TheRockstorProject) (PM/Direct Message only), or PM our 'paid_support' forum group: ‘Incident-based Support subscription’ membership order number & matching email required in all cases. 
-**Language:** | English, Portuguese to follow in time.
-**Response Time:** | Within 2 business days.
-**Availability:** | During weekdays, excluding Portugal holidays.
+Any suspicion of bad actors at play will result in immediate forum / email / domain bans,
+as is our normal stance on any unsocial behaviour.
+If a "Paid Support" provider makes use of any resources under the remit of [The Rockstor Project](https://opencollective.com/the-rockstor-project),
+they are requested to announce their status as such.
+We are here to help, but not to be taken advantage of.
 
-{{< /bootstrap-table >}}
+Genuine, financially independent Rockstor support providers are most welcome to contact us for a listing here for free.
+Note that we reserve the right to remove or negatively reference any provider listed.
+All prospective users of service providers listed here are also responsible for their own choices.
+We obviously cannot guarantee the quality or reliability of 3rd party enteties.
 
+Consider this effort as a 'good will' endeavour to provide an index for Rockstor "Paid Support" providers.
 
-Also consider our extensive [documentation](/docs/) and our friendly [community forum](https://forum.rockstor.com/).
+Project native offerings: our extensive [Documentation](/docs/), & our friendly [Community Forum](https://forum.rockstor.com/).
 
 {{< button label="Documentation" link="/docs/" >}}
 {{< button label="Community Forum" link="https://forum.rockstor.com/" >}}
 
 ---
-
-## Support FAQ
-{{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
-
-Question | Answer
---- | ---
-**Incident definition?** | An incident is a question relating to a specific, discrete issue, and may involve several interactions with the support service to achieve resolution.
-**Incident waiver?** | If your issue uncovers, or confirms, a 'rockstor' package bug, your Support Incident is considered unused. In this case we will be prioritising the related bugfix.
-**Refund policy?** | The latest payment of either an 'Incident-based Support subscription' or a 'Stable Updates subscription', can be refunded for the EU mandated 14 day cooling-off period.
-**I already have a Stable Updates subscription?** | [Support Email](mailto:support@rockstor.com) can transfer an existing 'Stable Updates subscription' Computer/activation-code, to a purchased 'Incident-based Support subscription'. You can then cancel your "Stable Updates subscription" via Open Collective.
-**Can I revert to a 'Stable Updates subscription?** | Yes, the procedure is the reverse of the last answer.
-**What if I need additional support incidents?** | Each 'Incident-based Support subscription' covers one incident & 1 year's Stable Updates subscription. You can ignore automated Appliance ID request emails if you only need the support incident.
-
-{{< /bootstrap-table >}}
 
 {{< mailto >}}
