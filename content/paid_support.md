@@ -15,7 +15,7 @@ Evolving clarifications of our fiscal host [Open Source Europe (OSE)](https://op
 
 Ergo; we cannot, nor can any other OSE hosted project, associate a contribution to a "... defined benefit, access, or deliverable ..."!
 
-This page now intends to provide a community curated list of fiscally independent **Paid support** providers.
+This page now intends to provide a community-curated list of fiscally independent **Paid support** providers.
 
 ---
 
