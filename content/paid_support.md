@@ -47,7 +47,7 @@ We are here to help, but not to be taken advantage of.
 Genuine, financially independent Rockstor support providers are most welcome to contact us for a listing here for free.
 Note that we reserve the right to remove or negatively reference any provider listed.
 All prospective users of service providers listed here are also responsible for their own choices.
-We obviously cannot guarantee the quality or reliability of 3rd party enteties.
+We obviously cannot guarantee the quality or reliability of 3rd party entities.
 
 Consider this effort as a 'good will' endeavour to provide an index for Rockstor "Paid Support" providers.
 
