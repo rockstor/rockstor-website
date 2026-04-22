@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2024-11-27T18:54:52+01:00
+date: 2026-04-22T00:00:00+01:00
 draft: false
 aliases:
 - /download.html
@@ -17,8 +17,8 @@ cascade:
 
 ***Rockstor 5.1.0-0 = Final Stable Release Candidate***
 
-[Stable Release Candidate status](https://forum.rockstor.com/t/v5-0-testing-channel-changelog/8898/29) **---**
-[GitHub Milestone](https://github.com/rockstor/rockstor-core/milestone/27)
+[Stable Release Candidate status](https://forum.rockstor.com/t/v5-5-testing-channel-changelog/10895/3) **---**
+[Current Milestone](https://github.com/rockstor/rockstor-core/milestone/31)
 
 *4.1.0-0 was our first "Built on openSUSE" Stable Release*
 
@@ -34,7 +34,8 @@ TW/SR = Tumbleweed-Slowroll (Development/Advanced-user/Rescue use only).
 {{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
 | ---     | 15.1 EOL| 15.2 EOL| 15.3 EOL| 15.4 EOL | 15.5 EOL | 15.6    | TW/SR   |
 |---------|---------|---------|---------|----------|----------|---------|---------|
-| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.15-0 | 5.0.15-0 | 5.1.0-0 | 5.1.0-0 |
+| Edge    | ---     | ---     | ---     | ---      | ---      | 5.5.1-0 | 5.5.1-0 |
+| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.15-0 | 5.0.15-0 | 5.5.1-0 | 5.5.1-0 |
 | Stable  | ---     | 4.1.0-0 | 4.1.0-0 | 4.6.1-0  | 4.6.1-0  | 5.1.0-0 | 5.1.0-0 |
 {{< /bootstrap-table >}}
 
