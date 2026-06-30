@@ -17,7 +17,7 @@ cascade:
 
 ***Rockstor 5.1.0-0 = Final Stable Release Candidate***
 
-[Stable Release Candidate status](https://forum.rockstor.com/t/v5-5-testing-channel-changelog/10895/6) **---**
+[Stable Release Candidate status](https://forum.rockstor.com/t/v5-5-testing-channel-changelog/10895/8) **---**
 [Current Milestone](https://github.com/rockstor/rockstor-core/milestone/31)
 
 *4.1.0-0 was our first "Built on openSUSE" Stable Release*
@@ -34,15 +34,15 @@ TW/SR = Tumbleweed-Slowroll (Development/Advanced-user/Rescue use only).
 {{< bootstrap-table table_class="table table-bordered border-primary table-striped" >}}
 | ---     | 15.1 EOL| 15.2 EOL| 15.3 EOL| 15.4 EOL | 15.5 EOL | 15.6 EOL| 16.0    | TW/SR   |
 |---------|---------|---------|---------|----------|----------|---------|---------|---------|
-| Edge    | ---     | ---     | ---     | ---      | ---      | 5.5.2-1 | 5.5.2-1 | 5.5.2-1 |
-| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.15-0 | 5.0.15-0 | 5.5.2-1 | 5.5.2-1 | 5.5.2-1 |
+| Edge    | ---     | ---     | ---     | ---      | ---      | 5.5.4-0 | 5.5.4-0 | 5.5.4-0 |
+| Testing | 4.0.1-0 | 4.1.0-0 | 4.6.1-0 | 5.0.15-0 | 5.0.15-0 | 5.5.4-0 | 5.5.4-0 | 5.5.4-0 |
 | Stable  | ---     | 4.1.0-0 | 4.1.0-0 | 4.6.1-0  | 4.6.1-0  | 5.1.0-0 |         | 5.1.0-0 |
 {{< /bootstrap-table >}}
 
 
 ---
 
-*We are Pi4 & ARM64 [Embedded Boot](https://github.com/ARM-software/ebbr) / [Server Boot](https://github.com/ARM-software/sbsa-acs) compatible.*
+*We are Pi4, Pi5 for TW DIY installer builds, & ARM64 [Embedded Boot](https://github.com/ARM-software/ebbr) / [Server Boot](https://github.com/ARM-software/sbsa-acs) compatible.*
 
 See our [Rockstor’s “Built on openSUSE” installer](/docs/installation/installer-howto.html) and 
 [Making a Rockstor USB install disk](/docs/installation/quickstart.html#making-a-rockstor-usb-install-disk)
